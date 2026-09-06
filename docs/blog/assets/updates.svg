@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="512.39952pt" height="202.79952pt" viewBox="0 0 512.39952 202.79952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-06T18:31:51.020261</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 202.79952 
+L 512.39952 202.79952 
+L 512.39952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 66.026562 145.308114 
+L 505.19952 145.308114 
+L 505.19952 7.2 
+L 66.026562 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 66.026562 145.308114 
+L 66.026562 7.2 
+" clip-path="url(#pc948bea458)" style="fill: none; stroke: #eeeeee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m60b3e2d205" d="M 0 0 
+L 0 3.5 
+" style="stroke: #50565c; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m60b3e2d205" x="66.026562" y="145.308114" style="fill: #50565c; stroke: #50565c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #50565c" x="66.026562" y="163.696395" transform="rotate(-0 66.026562 163.696395)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 155.969184 145.308114 
+L 155.969184 7.2 
+" clip-path="url(#pc948bea458)" style="fill: none; stroke: #eeeeee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m60b3e2d205" x="155.969184" y="145.308114" style="fill: #50565c; stroke: #50565c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #50565c" x="155.969184" y="163.696395" transform="rotate(-0 155.969184 163.696395)">256</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 245.911806 145.308114 
+L 245.911806 7.2 
+" clip-path="url(#pc948bea458)" style="fill: none; stroke: #eeeeee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m60b3e2d205" x="245.911806" y="145.308114" style="fill: #50565c; stroke: #50565c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #50565c" x="245.911806" y="163.696395" transform="rotate(-0 245.911806 163.696395)">512</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 335.854428 145.308114 
+L 335.854428 7.2 
+" clip-path="url(#pc948bea458)" style="fill: none; stroke: #eeeeee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m60b3e2d205" x="335.854428" y="145.308114" style="fill: #50565c; stroke: #50565c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #50565c" x="335.854428" y="163.696395" transform="rotate(-0 335.854428 163.696395)">768</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 425.797049 145.308114 
+L 425.797049 7.2 
+" clip-path="url(#pc948bea458)" style="fill: none; stroke: #eeeeee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m60b3e2d205" x="425.797049" y="145.308114" style="fill: #50565c; stroke: #50565c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #50565c" x="425.797049" y="163.696395" transform="rotate(-0 425.797049 163.696395)">1024</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #50565c" x="285.613041" y="192.053426" transform="rotate(-0 285.613041 192.053426)">optimizer 업데이트 수</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: end; fill: #50565c" x="62.526562" y="38.950653" transform="rotate(-0 62.526562 38.950653)">epoch 1</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: end; fill: #50565c" x="62.526562" y="124.945742" transform="rotate(-0 62.526562 124.945742)">epoch 4</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 66.026562 53.035383 
+L 155.969184 53.035383 
+L 155.969184 13.477642 
+L 66.026562 13.477642 
+z
+" clip-path="url(#pc948bea458)" style="fill: #b2b8bc"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 66.026562 139.030472 
+L 425.797049 139.030472 
+L 425.797049 99.472731 
+L 66.026562 99.472731 
+z
+" clip-path="url(#pc948bea458)" style="fill: #477da8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 66.026562 145.308114 
+L 505.19952 145.308114 
+" style="fill: none; stroke: #d6d9dc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #33383d" x="164.752643" y="37.177606" transform="rotate(-0 164.752643 37.177606)">256</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #33383d" x="434.580508" y="123.172695" transform="rotate(-0 434.580508 123.172695)">1,024</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc948bea458">
+   <rect x="66.026562" y="7.2" width="439.172957" height="138.108114"/>
+  </clipPath>
+ </defs>
+</svg>

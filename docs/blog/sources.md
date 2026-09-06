@@ -1,18 +1,21 @@
-# 첫 블로그 글 — 근거와 편집 메모
+# 첫 블로그 글 수정본 — 근거와 편집 메모
 
-상태: **검토용 초안, 미게시**. 기준일: 2026-09-06.
+상태: **2026-09-06 게시 반영본**. 사용자의 게시·커밋·푸시·프로젝트 공개 전환 요청에 따라 반영했다.
 
-미리보기는 [index.html](index.html)이다. 외부 폰트·차트 라이브러리·분석 스크립트 없이 로컬에서 열린다. 기존 Jekyll 블로그의 `_posts`, 테마, 배포 설정은 변경하지 않았다. HTML은 콘텐츠와 시각 구성을 검토하기 위한 독립 초안이며, 완성된 Jekyll 게시물은 아니다.
+[블로그 게시물](https://kimmusic.github.io/project/hearthstone-battleground-ai-1/)의 원문은 블로그 저장소 `_posts/2026-09-06-hearthstone-battleground-ai-1.md`다. 이 폴더의 [draft.md](draft.md)와 [index.html](index.html)은 검토 당시 형식을 보존한 미리보기이며 실제 Jekyll 결과는 아니다.
+
+`python docs/blog/render_preview.py`로 Markdown을 HTML로 변환하고 네 그래프를 SVG/PNG로 내보낸다. 현재 PC에 설치된 Python-Markdown·Matplotlib과 맑은 고딕을 사용하며 프로젝트의 런타임 의존성은 바꾸지 않았다. 완성된 HTML과 SVG는 외부 폰트·JavaScript·분석 도구 없이 열린다.
 
 ## 편집 방향
 
 - 독자: 전장을 알거나, 개인 AI 프로젝트가 실제로 어디까지 갔는지 궁금한 개발자.
-- 첫 화면 질문: “보상은 올랐는데, 무엇을 배운 걸까?”
-- 흐름: 주제 선정 → 학습 문제 → 기존 구현의 한계 → Rebuild 설계 → 작은 환경의 실험 → 8인 로비의 실패 → 다음 가설.
-- 본문은 짧은 주장과 도식·지표에 집중하고, 분모·조건·출처는 펼침 설명으로 제공한다.
-- 전문성은 용어의 양보다 변수 통제, 기준선, seed 반복, 부정적 결과와 채택 기준을 보여주는 방식으로 전달한다.
-- “이 간격을 학습으로 연결해 보고 싶었다”는 프로젝트 방향에서 제안한 동기 문장이다. 사용자의 실제 개인적 계기와 플레이 경험은 아직 확인하지 않았다.
-- 가짜 게임 화면이나 가상의 모델 성과를 사용하지 않았다. 첫 화면의 카드 모양 그림은 설명용이며 해당 사실을 표시했다. 사진은 확보되지 않았으므로 이번 초안에는 넣지 않았다.
+- 읽은 글: [A2A 프로젝트](https://github.com/KIMMUSIC/kimmusic.github.io/blob/master/_posts/2025-10-07-a2a%20protocol.md), [뮤직 플레이어](https://github.com/KIMMUSIC/kimmusic.github.io/blob/master/_posts/2022-12-01-music%20player.md), [체스 통계](https://github.com/KIMMUSIC/kimmusic.github.io/blob/master/_posts/2025-12-20-chess-stats.md), AWS 실습·gRPC·BOJ 풀이 글.
+- 제목은 기존 연재의 `만들기(1)` 형식, 소제목은 `[학습 환경]`, `[PPO 학습]`처럼 대상을 직접 명시한다.
+- “만들어 보려고 한다”, “구성했다”, “확인해 보니”처럼 실제 작업을 설명하는 문장으로 바꾸고 포스터 문구·영문 배지·결심형 맺음을 제거했다.
+- 수치와 코드, 짧은 설명이 이어지도록 구성했다. 학습 설정 → optimizer 업데이트 수 → 새 조건 평가 → 모방 학습의 상태 분포 문제 순서다.
+- rollout/GAE/clipping, KL 로그의 계산 시점, NLL 기반 actor 학습과 critic 고정을 실제 코드·기록으로 설명한다. 하지 않은 학습이나 알고리즘 구현 경험을 추가하지 않는다.
+- 동기 문장은 확인된 프로젝트 목표를 바탕으로 제안한 표현이다. 개인 플레이 경력·실제 레이팅 같은 미확인 경험은 넣지 않았다.
+- 본문 GitHub 링크는 이미 push된 구현·실험 파일을 가리킨다. 게시 시 프로젝트 저장소를 공개로 전환한다.
 
 ## 레거시 한계
 
@@ -32,6 +35,8 @@
 
 | 시각 자료 | 근거 | 분모 / 비교 조건 |
 | --- | --- | --- |
+| epoch별 optimizer 256 → 1024 | [007 결과](../EPOCH_COMPARISON_RESULT_007.md) | 단일 환경, 8192/32 rollout × epoch. |
+| 교사 dev 약79% / 실제 방문 상태34–43% | [044 JSON](../../experiments/diagnostics/lobby044_visited_states.json) | 두 집단은 다른 상태. dev 2236행, 방문 상태 1373/1436/1529행. renderer가 정확도를 JSON에서 읽는다. |
 | 작은 환경 생존율, 새 seed: 0 → 71.67% | [008 결과](../HOLDOUT_RESULT_008.md), [보존 집계](evidence/holdout-008-audit.json) | 조건당 3 학습 seed × 3 정책 seed × 20 게임 seed = 180회. 휴리스틱 20회, 생존율 100%. |
 | 상대 변경: 0 → 73.33% | 같은 008 결과·집계 | 기존 상대 조건과 같은 게임 seed 301–320을 사용. 고유 게임 seed를 40개로 세지 않는다. |
 | 스텝 증가만으로 안정적 개선 없음 | [006 결과](../LEARNING_CURVE_RESULT_006.md) | 512/2048/8192스텝 × 학습 seed 7/17/27. 최고 모델만 선택하지 않는다. |
@@ -51,6 +56,10 @@
 
 ## 검증
 
-초안의 두 생존율을 008 집계의 9개 stochastic cell에서 다시 계산하고, 045의 seed별·전체 순위와 후보 미채택을 JSON에서 대조했다. local source 링크·모바일 배치·그래프 조건 전환은 미리보기 검증 대상이다. 소스 전체의 fresh 검증과 Git 포함 범위는 [소스 스냅샷](../SOURCE_SNAPSHOT.md)에 기록한다.
+그래프는 008 집계의 9개 stochastic cell, 044의 두 상태 집단 정확도, 045의 seed별 순위를 읽어 만든다. 링크 경로·그림 로드·모바일 배치·펼침 설명을 검증한다. 이번 변경은 블로그 초안에만 한정되므로 전체 학습 테스트를 재실행하지 않았다. [소스 스냅샷](../SOURCE_SNAPSHOT.md)의 383 테스트 통과는 이전 커밋 시점 기록이다.
 
-게시 단계에서는 개인적 계기 문구를 확정하고 Jekyll의 프로젝트 카테고리에 옮긴다. 현재 저장소는 비공개이므로 공개 글의 독자는 GitHub 근거 링크를 열 수 없다. 공개용 근거 자료를 별도 포함하거나 링크 구성을 바꾸는 작업은 실제 게시 단계에서 처리한다.
+## 게시 자료
+
+블로그에는 기존 project 카테고리, header.teaser, 날짜와 제목 규칙을 적용했다. 네 그래프는 PNG로 포함했고 별도 미리보기의 CSS 의존 도식은 Markdown 표로 옮겼다. 프로젝트 README는 소개·목표·현재 범위와 문서 링크로 줄였다.
+
+썸네일은 Blizzard Entertainment의 [Battlegrounds Revamp Coming Tomorrow!](https://hearthstone.blizzard.com/en-us/news/23714527) 공식 게시물의 대표 이미지다. [원본 이미지](https://bnetcmsus-a.akamaihd.net/cms/blog_header/oj/OJF7LE4UGOVJ1629918279214.jpg)를 수정 없이 블로그 asset으로 저장하고 본문에 출처와 저작권자를 표시했다. 직접 구현한 게임 화면이나 AI 성능 결과 이미지가 아니다.
