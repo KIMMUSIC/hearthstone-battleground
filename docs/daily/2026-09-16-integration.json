@@ -1,0 +1,40 @@
+{
+  "compatibility": {
+    "action_version": "discrete-37-v1",
+    "cards_sha256": "d3e797794ee4dc1a2c0579c8c98ff8d38995230bf72797b95655ca9ca0ac7024",
+    "gymnasium": "1.2.3",
+    "mapping_sha256": "e3332f361e154a091cbb2d73728f490d5a0c7ab0b424929cb27af81957c41e6f",
+    "numpy": "2.4.2",
+    "observation_version": "onehot-slots-v2",
+    "python_version": "3.11.15",
+    "rules_sha256": "b26f5ac4c730e5fc984f10969ca313e4ebe3326fa7ec9a001909096d78c25ec0",
+    "sb3-contrib": "2.7.1",
+    "source_sha256": "29420da76fa9992ed703c25c10bdbbe35ca44a9880863803cec7db9aee911e2f",
+    "stable-baselines3": "2.7.1",
+    "torch": "2.10.0+cpu"
+  },
+  "episodes": [
+    {
+      "episodes": 100,
+      "golem_buys": 38,
+      "golem_plays": 55,
+      "policy": "heuristic",
+      "steps": 4755,
+      "termination_reasons": {
+        "horizon": 100
+      }
+    },
+    {
+      "episodes": 100,
+      "golem_buys": 122,
+      "golem_plays": 93,
+      "policy": "random",
+      "steps": 4571,
+      "termination_reasons": {
+        "horizon": 100
+      }
+    }
+  ],
+  "old_checkpoint_rejection": "Checkpoint compatibility mismatch; retrain under the current contract",
+  "status": "passed"
+}

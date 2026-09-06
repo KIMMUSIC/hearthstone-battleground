@@ -1,0 +1,662 @@
+{
+  "episodes_replayed": 960,
+  "steps_replayed": 123519,
+  "errors": [],
+  "cases": [
+    {
+      "report": "reference-final-diverse-v1-seed-17-argmax.json",
+      "sha256": "20cd08c12e0e8cf47a0f97615b41be4b9e0e1a219ee03159a295e748b667bcb5",
+      "action_counts": {
+        "buy": 178,
+        "play": 221,
+        "freeze": 3215,
+        "discover": 43,
+        "swap": 183
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-17-sample-11.json",
+      "sha256": "f9322b04efb33bafad96c42a884c08ac10be74e14f4f77c360a62f9b4ef3e787",
+      "action_counts": {
+        "buy": 217,
+        "play": 231,
+        "freeze": 493,
+        "end": 147,
+        "reroll": 77,
+        "swap": 189,
+        "discover": 43,
+        "sell": 70,
+        "upgrade": 18
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-17-sample-22.json",
+      "sha256": "bd8493a8f8ed38edde92b3a2f3cf9f0c0452945d21f300e02d79bf9fa5e62ac4",
+      "action_counts": {
+        "buy": 220,
+        "freeze": 440,
+        "play": 251,
+        "end": 150,
+        "swap": 187,
+        "sell": 75,
+        "reroll": 72,
+        "upgrade": 19,
+        "discover": 44
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-17-sample-33.json",
+      "sha256": "b39008957cf6dcbcb62803f99b8f851cab26ce57565e9e89077cb1074a36a87a",
+      "action_counts": {
+        "buy": 232,
+        "play": 259,
+        "freeze": 546,
+        "end": 148,
+        "reroll": 72,
+        "sell": 82,
+        "swap": 207,
+        "discover": 47,
+        "upgrade": 17
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-27-argmax.json",
+      "sha256": "36bd0126d2c7a38e7edeb6af91eadffdbbefd286e54ed29d91064514f9cb3766",
+      "action_counts": {
+        "buy": 60,
+        "freeze": 2820
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-27-sample-11.json",
+      "sha256": "5235352045a19f1b677ab9a4e60e49c0df93bd147a3201aa2d1e926daa781829",
+      "action_counts": {
+        "buy": 259,
+        "freeze": 1671,
+        "play": 296,
+        "end": 67,
+        "reroll": 118,
+        "swap": 334,
+        "upgrade": 20,
+        "discover": 52,
+        "sell": 109
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-27-sample-22.json",
+      "sha256": "3f7f8b70ab23e4ecc9d0e40e573a8a2fc73920468f1632f0472fd5916bb71db2",
+      "action_counts": {
+        "buy": 276,
+        "freeze": 1740,
+        "play": 312,
+        "sell": 125,
+        "swap": 368,
+        "reroll": 132,
+        "discover": 53,
+        "upgrade": 20,
+        "end": 64
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-27-sample-33.json",
+      "sha256": "0e58ff52b576a51d4bc0517ee56934497054daf8584c16a820f8890b04aa8642",
+      "action_counts": {
+        "buy": 259,
+        "play": 286,
+        "freeze": 1726,
+        "sell": 113,
+        "reroll": 112,
+        "upgrade": 20,
+        "end": 70,
+        "swap": 335,
+        "discover": 48
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-7-argmax.json",
+      "sha256": "77cbb6673938499ea6e98f199ba26d26490740cafa0983c3402aa40384d5da17",
+      "action_counts": {
+        "freeze": 2860,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-7-sample-11.json",
+      "sha256": "ebd2a2c92cbfd335eafcfdfc0477d6f7c506805957f1eb73ff9658f357b53380",
+      "action_counts": {
+        "buy": 225,
+        "freeze": 2196,
+        "play": 222,
+        "reroll": 234,
+        "swap": 247,
+        "upgrade": 20,
+        "sell": 93,
+        "end": 24,
+        "discover": 25
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-7-sample-22.json",
+      "sha256": "74645d54346463c1c13f92f3bc9edcf91a2ce487d3fc54ed87fb01dd882e235a",
+      "action_counts": {
+        "buy": 204,
+        "freeze": 2266,
+        "play": 223,
+        "reroll": 268,
+        "swap": 252,
+        "discover": 38,
+        "upgrade": 20,
+        "sell": 84,
+        "end": 19
+      }
+    },
+    {
+      "report": "reference-final-diverse-v1-seed-7-sample-33.json",
+      "sha256": "6e8f74165108678fcc1957da591fb5459da6b5f015086027351bf82ad5eab1ca",
+      "action_counts": {
+        "buy": 222,
+        "play": 241,
+        "freeze": 2262,
+        "upgrade": 20,
+        "sell": 91,
+        "reroll": 252,
+        "end": 24,
+        "swap": 256,
+        "discover": 38
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-17-argmax.json",
+      "sha256": "2db1e97926f4ca633d3ed931c21b0e1061c26888d5fab617c9bc4c0e5a9b61c6",
+      "action_counts": {
+        "freeze": 2880
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-17-sample-11.json",
+      "sha256": "4a5c01cf943e3ed46f3156a8dbeed3b6ca937286d4afe39cb66b2f00b74b88a5",
+      "action_counts": {
+        "buy": 234,
+        "freeze": 2701,
+        "play": 268,
+        "swap": 207,
+        "reroll": 63,
+        "discover": 45,
+        "sell": 80,
+        "end": 13,
+        "upgrade": 17
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-17-sample-22.json",
+      "sha256": "f12b61a857b375da582fd5e16486de5f71c8b25a5fd1b9d14f4ef5c0f1ef3406",
+      "action_counts": {
+        "buy": 217,
+        "freeze": 2693,
+        "play": 249,
+        "swap": 212,
+        "discover": 42,
+        "sell": 86,
+        "upgrade": 17,
+        "reroll": 62,
+        "end": 13
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-17-sample-33.json",
+      "sha256": "1a128b438b80e8ee486b5177c969ba202f83a07bbd85653c18dc5077b6223614",
+      "action_counts": {
+        "freeze": 2742,
+        "buy": 212,
+        "play": 250,
+        "reroll": 54,
+        "sell": 73,
+        "swap": 200,
+        "discover": 41,
+        "upgrade": 18,
+        "end": 10
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-27-argmax.json",
+      "sha256": "1079753f115eecb1ff71213f54c07e867dd29ef144264e554f86578b8a031e06",
+      "action_counts": {
+        "buy": 320,
+        "play": 376,
+        "end": 160,
+        "swap": 420,
+        "discover": 56,
+        "sell": 164,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-27-sample-11.json",
+      "sha256": "f881a3fe1d318b41e23fa62d859bd927fa7c7f9ee3b02a4325c1c3767c7381fb",
+      "action_counts": {
+        "buy": 244,
+        "play": 286,
+        "freeze": 179,
+        "end": 159,
+        "swap": 240,
+        "reroll": 82,
+        "sell": 82,
+        "discover": 62,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-27-sample-22.json",
+      "sha256": "96bb0c00f826642151d8ddabeea46409683a5c4a12e404d8a707f31b2f45121b",
+      "action_counts": {
+        "buy": 238,
+        "play": 272,
+        "freeze": 177,
+        "end": 158,
+        "reroll": 89,
+        "swap": 265,
+        "discover": 49,
+        "sell": 72,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-27-sample-33.json",
+      "sha256": "b045be77d130ac324024b283aae59a2781976868468e6f0b9cf3f4b3802cb8ba",
+      "action_counts": {
+        "buy": 248,
+        "play": 269,
+        "end": 154,
+        "reroll": 88,
+        "discover": 42,
+        "upgrade": 20,
+        "swap": 251,
+        "freeze": 202,
+        "sell": 94
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-7-argmax.json",
+      "sha256": "fde5e4280390372f92d31f036de1b33f162eb20c05e4b88ca6587961c55b7d22",
+      "action_counts": {
+        "buy": 160,
+        "play": 200,
+        "freeze": 3440,
+        "discover": 40
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-7-sample-11.json",
+      "sha256": "9049546a9990494a907ef74b3b90657a35a4919449053648ac2a617433b82ca4",
+      "action_counts": {
+        "buy": 211,
+        "play": 240,
+        "freeze": 781,
+        "end": 144,
+        "reroll": 25,
+        "swap": 217,
+        "upgrade": 19,
+        "sell": 65,
+        "discover": 46
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-7-sample-22.json",
+      "sha256": "07101df2fcee2579d0fda1de54878f9508f19aa68ea5eb7f600e26515ebabf04",
+      "action_counts": {
+        "buy": 212,
+        "freeze": 713,
+        "play": 231,
+        "end": 144,
+        "swap": 238,
+        "sell": 68,
+        "upgrade": 20,
+        "discover": 41,
+        "reroll": 25
+      }
+    },
+    {
+      "report": "reference-final-fixed-v1-seed-7-sample-33.json",
+      "sha256": "44883d0ee68ed479e696d3562382a51c8d94713f137e9b350943faac91488353",
+      "action_counts": {
+        "buy": 209,
+        "play": 231,
+        "freeze": 878,
+        "end": 142,
+        "swap": 259,
+        "upgrade": 20,
+        "reroll": 21,
+        "discover": 47,
+        "sell": 55
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-17-argmax.json",
+      "sha256": "c95b74da4eeeafbe14ae4259b013da4de33e90eb4544f2c9ea6aba5775729f4c",
+      "action_counts": {
+        "buy": 178,
+        "play": 221,
+        "freeze": 3215,
+        "discover": 43,
+        "swap": 183
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-17-sample-11.json",
+      "sha256": "6b67491d4b04c8d916fbbdda2f766382543199dc5ce454a2b07671aaee7d6747",
+      "action_counts": {
+        "buy": 222,
+        "play": 239,
+        "freeze": 512,
+        "end": 148,
+        "reroll": 78,
+        "swap": 195,
+        "discover": 44,
+        "sell": 74,
+        "upgrade": 18
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-17-sample-22.json",
+      "sha256": "5fec369696ab1178931267bbc7ca2fbd8c4932ec35bb1b1fa21522a2e6ec2000",
+      "action_counts": {
+        "buy": 230,
+        "freeze": 451,
+        "play": 261,
+        "end": 153,
+        "swap": 195,
+        "sell": 78,
+        "reroll": 76,
+        "upgrade": 19,
+        "discover": 45
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-17-sample-33.json",
+      "sha256": "eec3ac3d1891dd1af7f6b8958088886cb8fb40627f483c74ce19e7eb0e261b63",
+      "action_counts": {
+        "buy": 230,
+        "play": 258,
+        "freeze": 546,
+        "end": 147,
+        "reroll": 72,
+        "sell": 82,
+        "swap": 207,
+        "discover": 47,
+        "upgrade": 17
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-27-argmax.json",
+      "sha256": "2b08cdc86469cc94c30efe5727fdef2835aebee12cf86fff61d94aecd863ff6b",
+      "action_counts": {
+        "buy": 60,
+        "freeze": 2820
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-27-sample-11.json",
+      "sha256": "d76ba8c83a0dc083bb62cc96e70a4ca1630ba02d10c96a947b1176ee6cfae67c",
+      "action_counts": {
+        "buy": 254,
+        "freeze": 1664,
+        "play": 291,
+        "end": 67,
+        "reroll": 118,
+        "swap": 331,
+        "upgrade": 20,
+        "discover": 51,
+        "sell": 105
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-27-sample-22.json",
+      "sha256": "e6c013ea33d9b3365c0c7ff78fdd66c9338227f8e2f0c02369467610a01b41a1",
+      "action_counts": {
+        "buy": 275,
+        "freeze": 1747,
+        "play": 312,
+        "sell": 126,
+        "swap": 368,
+        "reroll": 133,
+        "discover": 54,
+        "upgrade": 20,
+        "end": 64
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-27-sample-33.json",
+      "sha256": "1e339fb06a00e38f3c1dca2a2b4d831d937619fdfd9cbfde220142fc6ca832c4",
+      "action_counts": {
+        "buy": 259,
+        "play": 284,
+        "freeze": 1728,
+        "sell": 112,
+        "reroll": 113,
+        "upgrade": 20,
+        "end": 70,
+        "swap": 335,
+        "discover": 48
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-7-argmax.json",
+      "sha256": "33647c12b6cc3bdaca06250c475506a39e5c819764b8756ce7ea88e81cf192dd",
+      "action_counts": {
+        "freeze": 2860,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-7-sample-11.json",
+      "sha256": "f1252c1ac8d67bc5006d865ab795c3a7dae8b77cb724f196fbfcb47c54910f5a",
+      "action_counts": {
+        "buy": 228,
+        "freeze": 2210,
+        "play": 225,
+        "reroll": 236,
+        "swap": 250,
+        "upgrade": 20,
+        "sell": 92,
+        "end": 24,
+        "discover": 25
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-7-sample-22.json",
+      "sha256": "322ed0b9e68362f6b8519033878f65737524f0797edfc7b7b3352369a357d9a6",
+      "action_counts": {
+        "buy": 207,
+        "freeze": 2269,
+        "play": 229,
+        "reroll": 269,
+        "swap": 256,
+        "discover": 41,
+        "upgrade": 20,
+        "sell": 82,
+        "end": 20
+      }
+    },
+    {
+      "report": "shifted-final-diverse-v1-seed-7-sample-33.json",
+      "sha256": "46b759eff1994bf4d16fb3c0bf8befd7ccb0e02cd64ce1febcebb206cc00acb5",
+      "action_counts": {
+        "buy": 226,
+        "play": 246,
+        "freeze": 2281,
+        "upgrade": 20,
+        "sell": 92,
+        "reroll": 263,
+        "end": 24,
+        "swap": 262,
+        "discover": 40
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-17-argmax.json",
+      "sha256": "12ebed57f0140b867c016bb0ce358b94af0ad348d7b630f44690a1687b20d2a7",
+      "action_counts": {
+        "freeze": 2880
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-17-sample-11.json",
+      "sha256": "b0723267f44e0f964dc6014ebf6005aa8635e766a60eeab782f8032cfe4e8701",
+      "action_counts": {
+        "buy": 236,
+        "freeze": 2728,
+        "play": 271,
+        "swap": 211,
+        "reroll": 63,
+        "discover": 46,
+        "sell": 81,
+        "end": 14,
+        "upgrade": 17
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-17-sample-22.json",
+      "sha256": "03e453dacfbb3e0a553b6fc013ceacbf691e6a127825a10de2c35ef67bb392b6",
+      "action_counts": {
+        "buy": 220,
+        "freeze": 2706,
+        "play": 253,
+        "swap": 215,
+        "discover": 42,
+        "sell": 86,
+        "upgrade": 18,
+        "reroll": 62,
+        "end": 13
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-17-sample-33.json",
+      "sha256": "85ff205705b2143706742219244350d58ca76a1b9c1bda8598dc8744bc2ffbd7",
+      "action_counts": {
+        "freeze": 2772,
+        "buy": 217,
+        "play": 256,
+        "reroll": 54,
+        "sell": 74,
+        "swap": 204,
+        "discover": 42,
+        "upgrade": 19,
+        "end": 10
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-27-argmax.json",
+      "sha256": "09ec0a28d7598543e40b70ebb0c125589e454dc9b05e8e7352ec1d94592f4d61",
+      "action_counts": {
+        "buy": 320,
+        "play": 376,
+        "end": 160,
+        "swap": 420,
+        "discover": 56,
+        "sell": 164,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-27-sample-11.json",
+      "sha256": "2291e4ef9834870d9f45c2f3ee0b0d983116ff8845ef9d084365790de63e2b35",
+      "action_counts": {
+        "buy": 241,
+        "play": 283,
+        "freeze": 179,
+        "end": 158,
+        "swap": 237,
+        "reroll": 80,
+        "sell": 80,
+        "discover": 62,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-27-sample-22.json",
+      "sha256": "2e225fb5eccc15c5d81144fca6dbe6159d5f5fb96fef914801cd541260740dc1",
+      "action_counts": {
+        "buy": 238,
+        "play": 272,
+        "freeze": 177,
+        "end": 158,
+        "reroll": 89,
+        "swap": 265,
+        "discover": 49,
+        "sell": 72,
+        "upgrade": 20
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-27-sample-33.json",
+      "sha256": "845d0949e1dceb637f817bceca2fafb7c353c893ac8c429e195795adc94733c2",
+      "action_counts": {
+        "buy": 251,
+        "play": 272,
+        "end": 155,
+        "reroll": 88,
+        "discover": 43,
+        "upgrade": 20,
+        "swap": 252,
+        "freeze": 202,
+        "sell": 95
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-7-argmax.json",
+      "sha256": "21e2eef297431d04d9fa360d08df4ec8671770c2d930f12cde3ab13183ab2bda",
+      "action_counts": {
+        "buy": 160,
+        "play": 200,
+        "freeze": 3440,
+        "discover": 40
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-7-sample-11.json",
+      "sha256": "fd70eb870c317cd738677e10902edbc1eb3597b9c2a5c169072c95e0eee8b5ec",
+      "action_counts": {
+        "buy": 214,
+        "play": 242,
+        "freeze": 794,
+        "end": 144,
+        "reroll": 26,
+        "swap": 220,
+        "upgrade": 19,
+        "sell": 67,
+        "discover": 46
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-7-sample-22.json",
+      "sha256": "734c5c713b221ca885b761d8e0bda8499fea5979b3386622eb281f383f59b8ec",
+      "action_counts": {
+        "buy": 214,
+        "freeze": 718,
+        "play": 236,
+        "end": 146,
+        "swap": 241,
+        "sell": 68,
+        "upgrade": 20,
+        "discover": 43,
+        "reroll": 25
+      }
+    },
+    {
+      "report": "shifted-final-fixed-v1-seed-7-sample-33.json",
+      "sha256": "2c2316dd5fe2cacb5c1369667fdd8e9f34e4dd31717bf38bdbdaa5a2e46c3e9a",
+      "action_counts": {
+        "buy": 203,
+        "play": 223,
+        "freeze": 860,
+        "end": 141,
+        "swap": 253,
+        "upgrade": 20,
+        "reroll": 21,
+        "discover": 45,
+        "sell": 53
+      }
+    }
+  ],
+  "status": "passed"
+}

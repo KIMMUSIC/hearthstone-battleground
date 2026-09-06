@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools==82.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hearthstone-ai-rebuild"
+version = "0.1.0"
+description = "Reproducible, deliberately restricted Battlegrounds research environment"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[project.optional-dependencies]
+rl = ["numpy==2.4.2", "gymnasium==1.2.3", "torch==2.10.0", "stable-baselines3==2.7.1", "sb3-contrib==2.7.1"]
+dev = ["pytest==9.0.2", "ruff==0.15.12"]
+
+[project.scripts]
+bgai = "hearthstone_ai.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B"]

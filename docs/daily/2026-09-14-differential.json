@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "seeds": 1000,
+  "compared": [
+    "result",
+    "damage_taken",
+    "damage_dealt",
+    "attacks",
+    "reason"
+  ],
+  "baseline": "runs/diversity-009-local-r1/src/hearthstone_ai/combat.py"
+}

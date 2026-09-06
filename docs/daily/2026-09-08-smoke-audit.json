@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "archive": "D:\\HearthStoneAI-Rebuild\\handoff\\diversity-009-r1-return-smoke.zip",
+  "archive_sha256": "99d6b8877f5a2e8637aa41a678072268b582a1c04710099db14e4c06a506dda9",
+  "archive_bytes": 13160579,
+  "input_files_identical": 49,
+  "manifest_files_verified": 48,
+  "tests_passed": 106,
+  "control": {
+    "phase": "smoke",
+    "started_unix": 1788635459.06574,
+    "status": "completed",
+    "argv": [
+      "/workspace/hsai-rebuild/snapshot-001/venv311/bin/python",
+      "-B",
+      "/workspace/hsai-rebuild/diversity-009-r1/scripts/supervise.py",
+      "--spec",
+      "/workspace/hsai-rebuild/diversity-009-r1/outputs/control-smoke/supervisor-spec.json",
+      "--output",
+      "/workspace/hsai-rebuild/diversity-009-r1/outputs/control-smoke/supervisor"
+    ],
+    "disk_limit_bytes": 1073741824,
+    "disk_measurement": "sampled package outputs, plus returned ZIP; not whole filesystem",
+    "supervisor_pid": 2757262,
+    "returncode": 0,
+    "peak_sampled_output_bytes": 1775661,
+    "ended_unix": 1788635473.0984828
+  },
+  "supervisor": {
+    "started_unix": 1788635459.0933192,
+    "commands": [
+      {
+        "argv": [
+          "/workspace/hsai-rebuild/snapshot-001/venv311/bin/python",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "/workspace/hsai-rebuild/diversity-009-r1/tests"
+        ],
+        "started_unix": 1788635459.093384,
+        "peak_sampled_rss": 769368064,
+        "pid": 2757263,
+        "remaining_pids": [],
+        "returncode": 0,
+        "ended_unix": 1788635469.735983
+      },
+      {
+        "argv": [
+          "/workspace/hsai-rebuild/snapshot-001/venv311/bin/python",
+          "-B",
+          "/workspace/hsai-rebuild/diversity-009-r1/scripts/diversity_009.py",
+          "--checkout",
+          "/workspace/hsai-rebuild/diversity-009-r1",
+          "--output",
+          "/workspace/hsai-rebuild/diversity-009-r1/outputs",
+          "--expected-source-sha256",
+          "81b0dae34dfbac6bf875d1ebcf2647f34e68817b1b0987bc63685801e614cd90",
+          "--phase",
+          "smoke"
+        ],
+        "started_unix": 1788635469.7359996,
+        "peak_sampled_rss": 385552384,
+        "pid": 2757349,
+        "remaining_pids": [],
+        "returncode": 0,
+        "ended_unix": 1788635472.8128164
+      }
+    ],
+    "status": "completed",
+    "memory_enforcement": "sampled process-group RSS; not a hard limit",
+    "elapsed_seconds": 13.719532732036896,
+    "ended_unix": 1788635472.8128521
+  },
+  "jobs": [
+    {
+      "mode": "fixed-v1",
+      "steps": 64,
+      "updates": 2,
+      "evaluation_seeds": [
+        501,
+        502
+      ],
+      "model_sha256": "69a6db085eac3ccc7f84662a7cc14f39b532565847c896d760b94eb45080793a"
+    },
+    {
+      "mode": "diverse-v1",
+      "steps": 64,
+      "updates": 2,
+      "evaluation_seeds": [
+        501,
+        502
+      ],
+      "model_sha256": "e3ed3d5ea4fcdc539f2c20acc3b86177b73783df133df0a53eeb399d3e451731"
+    }
+  ],
+  "operational_note": "Prior bot retry-policy deviation is recorded separately; this audit proves returned inputs and results, not approval compliance."
+}

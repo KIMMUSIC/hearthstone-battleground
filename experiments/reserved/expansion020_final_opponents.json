@@ -1,0 +1,14 @@
+{
+  "version": "expansion020-final-reserved-v1",
+  "purpose": "reserved final evaluation; no evaluation before candidate freeze",
+  "opponents": [
+    {"tier": 1, "board": [72387, 42467]},
+    {"tier": 1, "board": [60628, 60628]},
+    {"tier": 2, "board": [96763, 42467, 99159]},
+    {"tier": 2, "board": [2053, 96763, 96763, 60628]},
+    {"tier": 2, "board": [96763, 99159, 60628, 96763, 2053]},
+    {"tier": 2, "board": [2053, 60628, 96763, 42467, 99159, 96763]},
+    {"tier": 2, "board": [96763, 96763, 2053, 60628, 72387, 96763, 99159]},
+    {"tier": 2, "board": [60628, 96763, 99159, 96763, 2053, 96763, 96763]}
+  ]
+}

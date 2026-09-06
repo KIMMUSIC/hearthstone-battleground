@@ -1,0 +1,14 @@
+{
+  "version": "expansion020-development-v1",
+  "purpose": "development evaluation only; never training",
+  "opponents": [
+    {"tier": 1, "board": [60628]},
+    {"tier": 1, "board": [42467, 60628]},
+    {"tier": 2, "board": [99159, 96763]},
+    {"tier": 2, "board": [96763, 96763, 72387]},
+    {"tier": 2, "board": [60628, 99159, 96763, 2053]},
+    {"tier": 2, "board": [96763, 60628, 96763, 72387, 2053]},
+    {"tier": 2, "board": [99159, 96763, 42467, 96763, 60628, 2053]},
+    {"tier": 2, "board": [96763, 2053, 96763, 60628, 99159, 42467, 96763]}
+  ]
+}

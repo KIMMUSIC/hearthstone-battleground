@@ -1,0 +1,23 @@
+{
+  "status": "hypothesis-not-causal-proof",
+  "gamma": 0.99,
+  "source": "019 preserved action traces and saved PPO gamma",
+  "hypothesis": "Per-action discounting may prefer deferring unavoidable losses with freeze; test only after 021 fixed experiment",
+  "reports": {
+    "model-initial": {
+      "mean_undiscounted_reward": -6.0,
+      "mean_discounted_return": -5.155734804890933,
+      "mean_actions": 36.6
+    },
+    "model-final": {
+      "mean_undiscounted_reward": -6.0,
+      "mean_discounted_return": -2.831923020889859,
+      "mean_actions": 144
+    },
+    "heuristic": {
+      "mean_undiscounted_reward": 5.15,
+      "mean_discounted_return": 4.045086920192495,
+      "mean_actions": 47.25
+    }
+  }
+}

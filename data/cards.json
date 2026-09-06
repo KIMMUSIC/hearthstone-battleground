@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "ruleset": "archival-subset-v4",
+  "source": {
+    "path": "D:/HearthStoneAI/cards_raw.json",
+    "sha256": "38eaff2e32f13de5bfe684eda8ad75c1ac792f1257eb459ad711d6903372b097",
+    "note": "Curated custom archival subset; no live patch compatibility claim"
+  },
+  "cards": [
+    {
+      "dbf_id": 42467,
+      "name": "정의로운 수호자",
+      "tier": 1,
+      "attack": 1,
+      "health": 1,
+      "keywords": [
+        "DIVINE_SHIELD",
+        "TAUNT"
+      ]
+    },
+    {
+      "dbf_id": 72387,
+      "name": "아기늑대로봇",
+      "tier": 1,
+      "attack": 2,
+      "health": 1,
+      "keywords": [
+        "DIVINE_SHIELD"
+      ]
+    },
+    {
+      "dbf_id": 2053,
+      "name": "안녕로봇",
+      "tier": 2,
+      "attack": 1,
+      "health": 2,
+      "keywords": [
+        "DIVINE_SHIELD",
+        "TAUNT"
+      ]
+    },
+    {
+      "dbf_id": 99159,
+      "name": "암용 광전사",
+      "tier": 2,
+      "attack": 1,
+      "health": 5,
+      "keywords": []
+    },
+    {
+      "dbf_id": 96763,
+      "name": "허수아비골렘",
+      "tier": 2,
+      "attack": 2,
+      "health": 3,
+      "keywords": [
+        "DEATHRATTLE"
+      ],
+      "deathrattle": {
+        "type": "summon",
+        "token_id": 96764,
+        "count": 1
+      },
+      "triple_allowed": false,
+      "golden_allowed": false
+    },
+    {
+      "dbf_id": 96764,
+      "name": "손상된 골렘",
+      "tier": 1,
+      "attack": 2,
+      "health": 1,
+      "keywords": [],
+      "pool": false,
+      "triple_allowed": false,
+      "golden_allowed": false
+    },
+    {
+      "dbf_id": 60628,
+      "name": "용혈족 부관",
+      "tier": 1,
+      "attack": 2,
+      "health": 3,
+      "keywords": [
+        "TAUNT"
+      ]
+    },
+    {
+      "dbf_id": 96796,
+      "name": "공허방랑자",
+      "tier": 1,
+      "attack": 1,
+      "health": 3,
+      "keywords": [
+        "TAUNT"
+      ]
+    }
+  ]
+}

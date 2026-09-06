@@ -1,0 +1,189 @@
+{
+  "source_sha256": "38eaff2e32f13de5bfe684eda8ad75c1ac792f1257eb459ad711d6903372b097",
+  "accepted": [
+    60628,
+    96796
+  ],
+  "excluded": [
+    49278,
+    108715,
+    103652
+  ],
+  "parents": [
+    48100,
+    107865
+  ],
+  "reason": {
+    "49278": "summon-only token BOT_218t",
+    "108715": "summon-only token BG29_801t",
+    "103652": "alternate Annoy-o-Tron ID; not counted as a new distinct card"
+  },
+  "records": [
+    {
+      "attack": 2,
+      "battlegroundsPremiumDbfId": 63772,
+      "cardClass": "WARRIOR",
+      "cost": 0,
+      "dbfId": 60628,
+      "health": 3,
+      "id": "BGS_039",
+      "mechanics": [
+        "TAUNT"
+      ],
+      "name": "용혈족 부관",
+      "race": "DRAGON",
+      "races": [
+        "DRAGON"
+      ],
+      "set": "ALTERAC_VALLEY",
+      "techLevel": 1,
+      "text": "<b>도발</b>",
+      "type": "MINION"
+    },
+    {
+      "artist": "Alex Horley Orlandelli",
+      "attack": 1,
+      "battlegroundsPremiumDbfId": 57299,
+      "cardClass": "WARLOCK",
+      "cost": 1,
+      "dbfId": 96796,
+      "flavor": "내 이름은 보이드. 별명은... 몸빵.",
+      "health": 3,
+      "id": "BG_CS2_065",
+      "mechanics": [
+        "TAUNT"
+      ],
+      "name": "공허방랑자",
+      "race": "DEMON",
+      "races": [
+        "DEMON"
+      ],
+      "rarity": "FREE",
+      "set": "BATTLEGROUNDS",
+      "techLevel": 1,
+      "text": "<b>도발</b>",
+      "type": "MINION"
+    },
+    {
+      "artist": "Sam Nielson",
+      "attack": 2,
+      "cardClass": "WARRIOR",
+      "cost": 2,
+      "dbfId": 49278,
+      "health": 3,
+      "id": "BOT_218t",
+      "mechanics": [
+        "TAUNT"
+      ],
+      "name": "경비로봇",
+      "race": "MECHANICAL",
+      "races": [
+        "MECHANICAL"
+      ],
+      "set": "BOOMSDAY",
+      "techLevel": 1,
+      "text": "<b>도발</b>",
+      "type": "MINION"
+    },
+    {
+      "attack": 2,
+      "battlegroundsPremiumDbfId": 108716,
+      "cardClass": "HUNTER",
+      "cost": 0,
+      "dbfId": 108715,
+      "health": 2,
+      "id": "BG29_801t",
+      "mechanics": [
+        "TAUNT"
+      ],
+      "name": "은빛 새끼 거위",
+      "race": "BEAST",
+      "races": [
+        "BEAST"
+      ],
+      "set": "BATTLEGROUNDS",
+      "techLevel": 1,
+      "text": "<b>도발</b>",
+      "type": "MINION"
+    },
+    {
+      "artist": "Matt Dixon",
+      "attack": 1,
+      "battlegroundsPremiumDbfId": 103653,
+      "cardClass": "PALADIN",
+      "cost": 0,
+      "dbfId": 103652,
+      "flavor": "안녕로봇의 발명가는 즉시 땜장이 학교와 땜장이 마을에서 쫓겨났으며, 결국에는 동부 왕국에서 영원히 추방되었습니다.",
+      "health": 2,
+      "id": "BG_GVG_085",
+      "isBattlegroundsPoolMinion": true,
+      "mechanics": [
+        "DIVINE_SHIELD",
+        "TAUNT"
+      ],
+      "name": "안녕로봇",
+      "race": "MECHANICAL",
+      "races": [
+        "MECHANICAL"
+      ],
+      "set": "BATTLEGROUNDS",
+      "techLevel": 1,
+      "text": "<b>도발</b>\n<b>천상의 보호막</b>",
+      "type": "MINION"
+    },
+    {
+      "artist": "Adam Byrne",
+      "attack": 2,
+      "battlegroundsPremiumDbfId": 58392,
+      "cardClass": "WARRIOR",
+      "collectible": true,
+      "cost": 6,
+      "dbfId": 48100,
+      "flavor": "침입자 감지. 안아주기 프로그램을 실행합니다.",
+      "health": 6,
+      "id": "BOT_218",
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "name": "순찰용 부릉이",
+      "race": "MECHANICAL",
+      "races": [
+        "MECHANICAL"
+      ],
+      "rarity": "RARE",
+      "referencedTags": [
+        "TAUNT"
+      ],
+      "set": "BOOMSDAY",
+      "techLevel": 4,
+      "text": "이 하수인은 피해를 받을 때마다 <b>도발</b> 능력이 있는 2/3 기계를 소환합니다.",
+      "type": "MINION"
+    },
+    {
+      "artist": "Marta Vives Poch",
+      "attack": 2,
+      "battlegroundsPremiumDbfId": 107887,
+      "cardClass": "HUNTER",
+      "cost": 0,
+      "dbfId": 107865,
+      "health": 3,
+      "id": "BG29_801",
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "name": "은빛 거위",
+      "race": "BEAST",
+      "races": [
+        "BEAST"
+      ],
+      "referencedTags": [
+        "TAUNT"
+      ],
+      "set": "BATTLEGROUNDS",
+      "techLevel": 2,
+      "text": "이 하수인이 피해를 받을 때마다 <b>도발</b> 능력이 있는 2/2 새끼 거위를 소환합니다.",
+      "type": "MINION"
+    }
+  ],
+  "official_response_sha256": "75e7cc15a42b40798658c8cffcda006bb0f2e0e7afba2ca489417d2922747125"
+}

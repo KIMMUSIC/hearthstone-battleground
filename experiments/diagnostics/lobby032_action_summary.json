@@ -1,0 +1,54 @@
+{
+  "run": "lobby-032-local-r1",
+  "kind": "read-only action analysis",
+  "policies": {
+    "initial": {
+      "report_sha256": "423a39ff1e6a5fb5dff3a3c4d5994f6e9a3c95c71829d32c079851af9236b19c",
+      "episodes": 20,
+      "actions": 732,
+      "categories": {
+        "end": 120,
+        "reroll": 166,
+        "upgrade": 18,
+        "freeze": 0,
+        "buy": 170,
+        "sell": 113,
+        "play": 133,
+        "swap": 12,
+        "discover": 0
+      }
+    },
+    "final": {
+      "report_sha256": "9ad2deb68efc337eec7dabbad0d3484a13b27aa8994f3712df728ec19141ac89",
+      "episodes": 20,
+      "actions": 2880,
+      "categories": {
+        "end": 0,
+        "reroll": 0,
+        "upgrade": 0,
+        "freeze": 2880,
+        "buy": 0,
+        "sell": 0,
+        "play": 0,
+        "swap": 0,
+        "discover": 0
+      }
+    },
+    "heuristic": {
+      "report_sha256": "faa72f45a067ff8abd47de1a9d469c9c0ff4b254f3eb99cbd5d10477c989d4f3",
+      "episodes": 20,
+      "actions": 2236,
+      "categories": {
+        "end": 334,
+        "reroll": 1188,
+        "upgrade": 20,
+        "freeze": 0,
+        "buy": 283,
+        "sell": 31,
+        "play": 306,
+        "swap": 0,
+        "discover": 74
+      }
+    }
+  }
+}

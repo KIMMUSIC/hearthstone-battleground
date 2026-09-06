@@ -1,0 +1,12 @@
+{
+  "max_steps": 64,
+  "max_seconds": 60,
+  "threads": 1,
+  "seed": 7,
+  "n_steps": 32,
+  "batch_size": 32,
+  "n_epochs": 1,
+  "checkpoint_interval": 32,
+  "max_turns": 8,
+  "max_actions": 24
+}

@@ -1,0 +1,297 @@
+{
+  "date": "2026-09-06",
+  "source_files": {
+    "__init__.py": "f77f5f8b8cf3c1666214b4c984c8424486d09325afe8ec4e5665faf51451460d",
+    "__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+    "actions.py": "a18fbb91289341aa1ef4b7ac2249cc975a25129d33a70417e2b52f9866bf6086",
+    "artifacts.py": "8f6f1e5eed138319c3bac2799fd3c00573a9f9ee561e64b6bff92da5e6708d8b",
+    "cards.py": "1e7f4e0e865cd9b6003ec96dfb20e352202a3f4e4db060138e933cdb20246945",
+    "cli.py": "bd853b948249e11312aef77cb604b38463de652f751e6c8939e16e78d03257e6",
+    "combat.py": "3d7a3e6e1c6e92ec0eb64cca747a20ca9bd6b66e8f481c63044018f96ee3a5be",
+    "env.py": "436ccd724547cfc904db468fe4139482727494d227023ec13c942510cc0257b4",
+    "evaluation.py": "ac44f847df78a1c468b6872ef05580aa9cc6717fe8db2df89a6030dd9603801e",
+    "game.py": "b8ed99a7437343242ea121158fa84bced2751ddba86c66849279530847c72558",
+    "training.py": "5e02441c3a2cbfcb7b39db45686b1502cdf4b597b8db34e009e37f7deebf995a"
+  },
+  "source_sha256": "80b5ca7a81687165553578ef28f581025d754a6759a04f42ae8d00387c5b97a8",
+  "inputs": {
+    "configs/research_train.json": "c9a24eb959da4524ee25b190486eb8778c2d2c11bcde28a0ce30c5557bd473fa",
+    "data/cards.json": "8e02d494165c4d5be64e4f05728346801b0c6e5f5e85488285cb71061a11bf0d",
+    "data/card_mapping.json": "6d80f62da8b29f16b0cccad1ff36af09b6a3509b2f10585ab6e3acb3a2b01785",
+    "docs/RULES.md": "a2ddcd9749dbf3cdeee6d2de4a72963389bbc59c08c9bee11c63ec134ef3ffb7",
+    "configs/eval_opponents.json": "2db5d03fa070df6072fa5e2259f5a4a745b517434e6bc0027b0700a01ba2f671",
+    "handoff/holdout-008/reference-opponents.json": "2db5d03fa070df6072fa5e2259f5a4a745b517434e6bc0027b0700a01ba2f671",
+    "handoff/holdout-008/shifted-opponents.json": "d0c39a1a3115d350701a11e266f23a9fc8a4cec8e120fac28e8cc5bea68ffc99",
+    "handoff/holdout-008/jobs.json": "5488298fc1498638b6c6a0d5a56f5992c80c0b3df8e0ac4f9706f7173ac67e54",
+    "handoff/holdout-008/audit-008.json": "9a140213231f18b719d56b441df5222d22ffe7852f4ab1c62925a2ecaeeeca74"
+  },
+  "research_config": {
+    "max_steps": 8192,
+    "max_seconds": 60,
+    "threads": 1,
+    "seed": 7,
+    "n_steps": 32,
+    "batch_size": 32,
+    "n_epochs": 4,
+    "checkpoint_interval": 8192,
+    "max_turns": 8,
+    "max_actions": 24
+  },
+  "archives": [
+    {
+      "path": "D:\\HearthStoneAI-Rebuild\\handoff\\curve-006\\grok-curve-006.zip",
+      "bytes": 12167295,
+      "sha256": "876f079e6df706fbb8363cc00382e6eb35801e695bf2238fc44dae11f53cec1e",
+      "members": 177
+    },
+    {
+      "path": "D:\\HearthStoneAI-Rebuild\\handoff\\epoch-007\\grok-epoch-007.zip",
+      "bytes": 6470785,
+      "sha256": "c16ac17332d9fd1ef0cbc16293791b07fc208b2d4d4b4d14033b0c6a4c28bade",
+      "members": 96
+    },
+    {
+      "path": "D:\\HearthStoneAI-Rebuild\\handoff\\holdout-008\\grok-holdout-008.zip",
+      "bytes": 12120503,
+      "sha256": "4ee3677e2aba7829079d2f526c19b37383de13efafd57afe3266705e4c2cf279",
+      "members": 93
+    }
+  ],
+  "models": [
+    {
+      "archive": "D:\\HearthStoneAI-Rebuild\\handoff\\curve-006\\grok-curve-006.zip",
+      "member": "results/seed-7-steps-8192/checkpoint-000000008192-0002/model.zip",
+      "sha256": "277f7e19adf4c79c64f5fdc819edd3ba17181b8a520bdf071f25cc5c21cd8ffd",
+      "num_timesteps": 8192,
+      "updates": 256,
+      "config": {
+        "batch_size": 32,
+        "checkpoint_interval": 8192,
+        "max_actions": 24,
+        "max_seconds": 60,
+        "max_steps": 8192,
+        "max_turns": 8,
+        "n_epochs": 1,
+        "n_steps": 32,
+        "seed": 7,
+        "threads": 1
+      },
+      "compatibility": {
+        "action_version": "discrete-37-v1",
+        "cards_sha256": "8e02d494165c4d5be64e4f05728346801b0c6e5f5e85488285cb71061a11bf0d",
+        "gymnasium": "1.2.3",
+        "mapping_sha256": "6d80f62da8b29f16b0cccad1ff36af09b6a3509b2f10585ab6e3acb3a2b01785",
+        "numpy": "2.4.2",
+        "observation_version": "onehot-slots-v1",
+        "python_version": "3.11.16",
+        "rules_sha256": "a2ddcd9749dbf3cdeee6d2de4a72963389bbc59c08c9bee11c63ec134ef3ffb7",
+        "sb3-contrib": "2.7.1",
+        "source_sha256": "80b5ca7a81687165553578ef28f581025d754a6759a04f42ae8d00387c5b97a8",
+        "stable-baselines3": "2.7.1",
+        "torch": "2.10.0+cpu"
+      }
+    },
+    {
+      "archive": "D:\\HearthStoneAI-Rebuild\\handoff\\curve-006\\grok-curve-006.zip",
+      "member": "results/seed-17-steps-8192/checkpoint-000000008192-0002/model.zip",
+      "sha256": "3266db796a2fab230f5b6f95b41e878f8d3780d987f17fcd29ff122ad5593972",
+      "num_timesteps": 8192,
+      "updates": 256,
+      "config": {
+        "batch_size": 32,
+        "checkpoint_interval": 8192,
+        "max_actions": 24,
+        "max_seconds": 60,
+        "max_steps": 8192,
+        "max_turns": 8,
+        "n_epochs": 1,
+        "n_steps": 32,
+        "seed": 17,
+        "threads": 1
+      },
+      "compatibility": {
+        "action_version": "discrete-37-v1",
+        "cards_sha256": "8e02d494165c4d5be64e4f05728346801b0c6e5f5e85488285cb71061a11bf0d",
+        "gymnasium": "1.2.3",
+        "mapping_sha256": "6d80f62da8b29f16b0cccad1ff36af09b6a3509b2f10585ab6e3acb3a2b01785",
+        "numpy": "2.4.2",
+        "observation_version": "onehot-slots-v1",
+        "python_version": "3.11.16",
+        "rules_sha256": "a2ddcd9749dbf3cdeee6d2de4a72963389bbc59c08c9bee11c63ec134ef3ffb7",
+        "sb3-contrib": "2.7.1",
+        "source_sha256": "80b5ca7a81687165553578ef28f581025d754a6759a04f42ae8d00387c5b97a8",
+        "stable-baselines3": "2.7.1",
+        "torch": "2.10.0+cpu"
+      }
+    },
+    {
+      "archive": "D:\\HearthStoneAI-Rebuild\\handoff\\curve-006\\grok-curve-006.zip",
+      "member": "results/seed-27-steps-8192/checkpoint-000000008192-0002/model.zip",
+      "sha256": "798a04327c59dfdc00370498dfb4780fee3eb38abd655c58a2791e96bbbaa393",
+      "num_timesteps": 8192,
+      "updates": 256,
+      "config": {
+        "batch_size": 32,
+        "checkpoint_interval": 8192,
+        "max_actions": 24,
+        "max_seconds": 60,
+        "max_steps": 8192,
+        "max_turns": 8,
+        "n_epochs": 1,
+        "n_steps": 32,
+        "seed": 27,
+        "threads": 1
+      },
+      "compatibility": {
+        "action_version": "discrete-37-v1",
+        "cards_sha256": "8e02d494165c4d5be64e4f05728346801b0c6e5f5e85488285cb71061a11bf0d",
+        "gymnasium": "1.2.3",
+        "mapping_sha256": "6d80f62da8b29f16b0cccad1ff36af09b6a3509b2f10585ab6e3acb3a2b01785",
+        "numpy": "2.4.2",
+        "observation_version": "onehot-slots-v1",
+        "python_version": "3.11.16",
+        "rules_sha256": "a2ddcd9749dbf3cdeee6d2de4a72963389bbc59c08c9bee11c63ec134ef3ffb7",
+        "sb3-contrib": "2.7.1",
+        "source_sha256": "80b5ca7a81687165553578ef28f581025d754a6759a04f42ae8d00387c5b97a8",
+        "stable-baselines3": "2.7.1",
+        "torch": "2.10.0+cpu"
+      }
+    },
+    {
+      "archive": "D:\\HearthStoneAI-Rebuild\\handoff\\epoch-007\\grok-epoch-007.zip",
+      "member": "results/seed-7-steps-8192/checkpoint-000000008192-0002/model.zip",
+      "sha256": "0174a5351ad4b48547e17aa078b7896f105fce75a61cebe3fcaac80b62d57a11",
+      "num_timesteps": 8192,
+      "updates": 1024,
+      "config": {
+        "batch_size": 32,
+        "checkpoint_interval": 8192,
+        "max_actions": 24,
+        "max_seconds": 60,
+        "max_steps": 8192,
+        "max_turns": 8,
+        "n_epochs": 4,
+        "n_steps": 32,
+        "seed": 7,
+        "threads": 1
+      },
+      "compatibility": {
+        "action_version": "discrete-37-v1",
+        "cards_sha256": "8e02d494165c4d5be64e4f05728346801b0c6e5f5e85488285cb71061a11bf0d",
+        "gymnasium": "1.2.3",
+        "mapping_sha256": "6d80f62da8b29f16b0cccad1ff36af09b6a3509b2f10585ab6e3acb3a2b01785",
+        "numpy": "2.4.2",
+        "observation_version": "onehot-slots-v1",
+        "python_version": "3.11.16",
+        "rules_sha256": "a2ddcd9749dbf3cdeee6d2de4a72963389bbc59c08c9bee11c63ec134ef3ffb7",
+        "sb3-contrib": "2.7.1",
+        "source_sha256": "80b5ca7a81687165553578ef28f581025d754a6759a04f42ae8d00387c5b97a8",
+        "stable-baselines3": "2.7.1",
+        "torch": "2.10.0+cpu"
+      }
+    },
+    {
+      "archive": "D:\\HearthStoneAI-Rebuild\\handoff\\epoch-007\\grok-epoch-007.zip",
+      "member": "results/seed-17-steps-8192/checkpoint-000000008192-0002/model.zip",
+      "sha256": "6753330251b6edd4dce735cfa2b9d2d62d7fbe7deddf97010a79ff996b0e882f",
+      "num_timesteps": 8192,
+      "updates": 1024,
+      "config": {
+        "batch_size": 32,
+        "checkpoint_interval": 8192,
+        "max_actions": 24,
+        "max_seconds": 60,
+        "max_steps": 8192,
+        "max_turns": 8,
+        "n_epochs": 4,
+        "n_steps": 32,
+        "seed": 17,
+        "threads": 1
+      },
+      "compatibility": {
+        "action_version": "discrete-37-v1",
+        "cards_sha256": "8e02d494165c4d5be64e4f05728346801b0c6e5f5e85488285cb71061a11bf0d",
+        "gymnasium": "1.2.3",
+        "mapping_sha256": "6d80f62da8b29f16b0cccad1ff36af09b6a3509b2f10585ab6e3acb3a2b01785",
+        "numpy": "2.4.2",
+        "observation_version": "onehot-slots-v1",
+        "python_version": "3.11.16",
+        "rules_sha256": "a2ddcd9749dbf3cdeee6d2de4a72963389bbc59c08c9bee11c63ec134ef3ffb7",
+        "sb3-contrib": "2.7.1",
+        "source_sha256": "80b5ca7a81687165553578ef28f581025d754a6759a04f42ae8d00387c5b97a8",
+        "stable-baselines3": "2.7.1",
+        "torch": "2.10.0+cpu"
+      }
+    },
+    {
+      "archive": "D:\\HearthStoneAI-Rebuild\\handoff\\epoch-007\\grok-epoch-007.zip",
+      "member": "results/seed-27-steps-8192/checkpoint-000000008192-0002/model.zip",
+      "sha256": "ee109a90df668a672c97b17d6b28bd1ec0b561820691b4d2bba79a1c5d1176a3",
+      "num_timesteps": 8192,
+      "updates": 1024,
+      "config": {
+        "batch_size": 32,
+        "checkpoint_interval": 8192,
+        "max_actions": 24,
+        "max_seconds": 60,
+        "max_steps": 8192,
+        "max_turns": 8,
+        "n_epochs": 4,
+        "n_steps": 32,
+        "seed": 27,
+        "threads": 1
+      },
+      "compatibility": {
+        "action_version": "discrete-37-v1",
+        "cards_sha256": "8e02d494165c4d5be64e4f05728346801b0c6e5f5e85488285cb71061a11bf0d",
+        "gymnasium": "1.2.3",
+        "mapping_sha256": "6d80f62da8b29f16b0cccad1ff36af09b6a3509b2f10585ab6e3acb3a2b01785",
+        "numpy": "2.4.2",
+        "observation_version": "onehot-slots-v1",
+        "python_version": "3.11.16",
+        "rules_sha256": "a2ddcd9749dbf3cdeee6d2de4a72963389bbc59c08c9bee11c63ec134ef3ffb7",
+        "sb3-contrib": "2.7.1",
+        "source_sha256": "80b5ca7a81687165553578ef28f581025d754a6759a04f42ae8d00387c5b97a8",
+        "stable-baselines3": "2.7.1",
+        "torch": "2.10.0+cpu"
+      }
+    }
+  ],
+  "seen_environment_seed_sets": [
+    [
+      101,
+      105
+    ],
+    [
+      201,
+      220
+    ],
+    [
+      301,
+      320
+    ]
+  ],
+  "reserved_development_seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420
+  ],
+  "new_training_steps": 0
+}

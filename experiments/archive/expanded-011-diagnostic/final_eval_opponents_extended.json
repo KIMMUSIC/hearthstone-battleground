@@ -1,0 +1,14 @@
+{
+  "version": "heldout-archival-v3-final",
+  "purpose": "final evaluation only after candidate freeze; do not inspect during development evaluation",
+  "opponents": [
+    {"tier": 1, "board": [96796]},
+    {"tier": 1, "board": [108715, 42467]},
+    {"tier": 2, "board": [49278, 60628]},
+    {"tier": 2, "board": [103652, 96763, 72387]},
+    {"tier": 2, "board": [2053, 96796, 108715, 49278]},
+    {"tier": 2, "board": [99159, 60628, 103652, 42467, 72387]},
+    {"tier": 2, "board": [96763, 96796, 108715, 49278, 60628, 2053]},
+    {"tier": 2, "board": [103652, 72387, 42467, 99159, 96763, 49278, 60628]}
+  ]
+}

@@ -1,0 +1,31 @@
+# Local environments and generated output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+**/bin/
+**/obj/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+
+# Large experiment artifacts; keep manifests under experiments/
+runs/
+handoff/
+.omx/
+.codex/
+*.egg-info/
+build/
+dist/
+# Historical desktop UI dumps; keep result summaries, not copied UI transcripts.
+docs/daily/*-ui.txt
+data/raw/
+*.zip
+*.pt
+*.pth
+*.onnx

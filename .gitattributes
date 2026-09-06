@@ -1,0 +1,7 @@
+# Preserve exact source/data/evidence bytes used by existing hash contracts.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary

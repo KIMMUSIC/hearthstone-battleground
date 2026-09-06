@@ -1,0 +1,298 @@
+{
+  "input_hashes": {
+    "outputs/train-s007-candidate/checkpoint-000000008192-0009/model.zip": "c8e234cbce5a11a2461c4b6f38e5e4d406859808ac3a3de0692fadf2a811a561",
+    "outputs/train-s007-candidate/status.json": "8432131e75bb82de1245a23f31c578347be51c98cfcf80ce5bc5472ef5051236",
+    "outputs/train-s007-control/checkpoint-000000008192-0009/model.zip": "e56052edc6a9fad3c363f32cb226e983127d34b5422a5b8dc1aa6231438aa672",
+    "outputs/train-s007-control/status.json": "4b7b9381a13f70ce9d3861e7016be00f745941eccceb0fcd84a3b99079dbf7a9",
+    "outputs/train-s017-candidate/checkpoint-000000008192-0009/model.zip": "63506b6bd9067321a9c13b299f8c4586b9224b0c45562446ac53a665bfcdc0f2",
+    "outputs/train-s017-candidate/status.json": "cf5f7a0dadf29c46c3685262665df648171d0c3b16145b04ec1f2c12e14c8dd4",
+    "outputs/train-s017-control/checkpoint-000000008192-0009/model.zip": "7c4d1776b05e76b825222988195574b3da2b27bfab8c7d4ed3727cb1247b8452",
+    "outputs/train-s017-control/status.json": "7c0012ecf3b3cdee30298623405aa4db5e8f1f09063ffe8994a8437209e73760",
+    "outputs/train-s027-candidate/checkpoint-000000008192-0009/model.zip": "aee32910bdc7c0948453e8863474a44760fcde870bf96e3951b9cdb9d7c279c1",
+    "outputs/train-s027-candidate/status.json": "50e06b3973633ca2d65598c4d6cac29a04989dd2b6f7b3e07ccbf44c411a7a7a",
+    "outputs/train-s027-control/checkpoint-000000008192-0009/model.zip": "735afc626e660732a72ab5ea97225cc9c689f1c9f2958a5f616475e895c65825",
+    "outputs/train-s027-control/status.json": "d1a1cbd1a9973e8ebb240faf7b5cdae805bd1ce0ff8faa2d8e8d89bf9d4168d0"
+  },
+  "inputs_unchanged": true,
+  "limitation": "Direct terminal reward component only; excludes value TD terms and bootstrap. Counterfactual partitions use existing trajectories and are not measured learning outcomes.",
+  "rows": {
+    "s007-candidate": {
+      "actual32": {
+        "completed_episodes": 105,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.060926604633423774,
+        "mean_completed_episode_steps": 77.51428571428572,
+        "nonzero_direct_reward_coverage": 0.176513671875,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.1973876953125,
+        "steps": 8192,
+        "unfinished_tail_steps": 53
+      },
+      "counterfactual128": {
+        "completed_episodes": 105,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.10216350916821215,
+        "mean_completed_episode_steps": 77.51428571428572,
+        "nonzero_direct_reward_coverage": 0.5980224609375,
+        "rollout": 128,
+        "same_rollout_terminal_coverage": 0.6793212890625,
+        "steps": 8192,
+        "unfinished_tail_steps": 53
+      },
+      "counterfactual256": {
+        "completed_episodes": 105,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.10854806181557405,
+        "mean_completed_episode_steps": 77.51428571428572,
+        "nonzero_direct_reward_coverage": 0.746826171875,
+        "rollout": 256,
+        "same_rollout_terminal_coverage": 0.8365478515625,
+        "steps": 8192,
+        "unfinished_tail_steps": 53
+      },
+      "counterfactual_lambda1": {
+        "completed_episodes": 105,
+        "lambda": 1,
+        "mean_absolute_direct_terminal_reward_component": 0.09402901785714286,
+        "mean_completed_episode_steps": 77.51428571428572,
+        "nonzero_direct_reward_coverage": 0.176513671875,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.1973876953125,
+        "steps": 8192,
+        "unfinished_tail_steps": 53
+      }
+    },
+    "s007-control": {
+      "actual32": {
+        "completed_episodes": 179,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.1092327089494045,
+        "mean_completed_episode_steps": 45.55865921787709,
+        "nonzero_direct_reward_coverage": 0.353271484375,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.3896484375,
+        "steps": 8192,
+        "unfinished_tail_steps": 37
+      },
+      "counterfactual128": {
+        "completed_episodes": 179,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.15356370794942478,
+        "mean_completed_episode_steps": 45.55865921787709,
+        "nonzero_direct_reward_coverage": 0.7076416015625,
+        "rollout": 128,
+        "same_rollout_terminal_coverage": 0.79541015625,
+        "steps": 8192,
+        "unfinished_tail_steps": 37
+      },
+      "counterfactual256": {
+        "completed_episodes": 179,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.1629030387782711,
+        "mean_completed_episode_steps": 45.55865921787709,
+        "nonzero_direct_reward_coverage": 0.7979736328125,
+        "rollout": 256,
+        "same_rollout_terminal_coverage": 0.89013671875,
+        "steps": 8192,
+        "unfinished_tail_steps": 37
+      },
+      "counterfactual_lambda1": {
+        "completed_episodes": 179,
+        "lambda": 1,
+        "mean_absolute_direct_terminal_reward_component": 0.17239815848214288,
+        "mean_completed_episode_steps": 45.55865921787709,
+        "nonzero_direct_reward_coverage": 0.353271484375,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.3896484375,
+        "steps": 8192,
+        "unfinished_tail_steps": 37
+      }
+    },
+    "s017-candidate": {
+      "actual32": {
+        "completed_episodes": 206,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.13130611524515653,
+        "mean_completed_episode_steps": 39.75728155339806,
+        "nonzero_direct_reward_coverage": 0.4002685546875,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.430908203125,
+        "steps": 8192,
+        "unfinished_tail_steps": 2
+      },
+      "counterfactual128": {
+        "completed_episodes": 206,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.1780269605207317,
+        "mean_completed_episode_steps": 39.75728155339806,
+        "nonzero_direct_reward_coverage": 0.78271484375,
+        "rollout": 128,
+        "same_rollout_terminal_coverage": 0.84033203125,
+        "steps": 8192,
+        "unfinished_tail_steps": 2
+      },
+      "counterfactual256": {
+        "completed_episodes": 206,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.18647778382211677,
+        "mean_completed_episode_steps": 39.75728155339806,
+        "nonzero_direct_reward_coverage": 0.8609619140625,
+        "rollout": 256,
+        "same_rollout_terminal_coverage": 0.9185791015625,
+        "steps": 8192,
+        "unfinished_tail_steps": 2
+      },
+      "counterfactual_lambda1": {
+        "completed_episodes": 206,
+        "lambda": 1,
+        "mean_absolute_direct_terminal_reward_component": 0.20608956473214282,
+        "mean_completed_episode_steps": 39.75728155339806,
+        "nonzero_direct_reward_coverage": 0.4002685546875,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.430908203125,
+        "steps": 8192,
+        "unfinished_tail_steps": 2
+      }
+    },
+    "s017-control": {
+      "actual32": {
+        "completed_episodes": 165,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.09196111545480314,
+        "mean_completed_episode_steps": 49.54545454545455,
+        "nonzero_direct_reward_coverage": 0.3111572265625,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.3392333984375,
+        "steps": 8192,
+        "unfinished_tail_steps": 17
+      },
+      "counterfactual128": {
+        "completed_episodes": 165,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.13413164471781788,
+        "mean_completed_episode_steps": 49.54545454545455,
+        "nonzero_direct_reward_coverage": 0.70458984375,
+        "rollout": 128,
+        "same_rollout_terminal_coverage": 0.7803955078125,
+        "steps": 8192,
+        "unfinished_tail_steps": 17
+      },
+      "counterfactual256": {
+        "completed_episodes": 165,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.1402479149735807,
+        "mean_completed_episode_steps": 49.54545454545455,
+        "nonzero_direct_reward_coverage": 0.7891845703125,
+        "rollout": 256,
+        "same_rollout_terminal_coverage": 0.8941650390625,
+        "steps": 8192,
+        "unfinished_tail_steps": 17
+      },
+      "counterfactual_lambda1": {
+        "completed_episodes": 165,
+        "lambda": 1,
+        "mean_absolute_direct_terminal_reward_component": 0.14753069196428584,
+        "mean_completed_episode_steps": 49.54545454545455,
+        "nonzero_direct_reward_coverage": 0.3111572265625,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.3392333984375,
+        "steps": 8192,
+        "unfinished_tail_steps": 17
+      }
+    },
+    "s027-candidate": {
+      "actual32": {
+        "completed_episodes": 164,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.10074472271312689,
+        "mean_completed_episode_steps": 49.88414634146341,
+        "nonzero_direct_reward_coverage": 0.29052734375,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.3197021484375,
+        "steps": 8192,
+        "unfinished_tail_steps": 11
+      },
+      "counterfactual128": {
+        "completed_episodes": 164,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.15609375309540444,
+        "mean_completed_episode_steps": 49.88414634146341,
+        "nonzero_direct_reward_coverage": 0.7222900390625,
+        "rollout": 128,
+        "same_rollout_terminal_coverage": 0.80322265625,
+        "steps": 8192,
+        "unfinished_tail_steps": 11
+      },
+      "counterfactual256": {
+        "completed_episodes": 164,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.16376029844334233,
+        "mean_completed_episode_steps": 49.88414634146341,
+        "nonzero_direct_reward_coverage": 0.806640625,
+        "rollout": 256,
+        "same_rollout_terminal_coverage": 0.894287109375,
+        "steps": 8192,
+        "unfinished_tail_steps": 11
+      },
+      "counterfactual_lambda1": {
+        "completed_episodes": 164,
+        "lambda": 1,
+        "mean_absolute_direct_terminal_reward_component": 0.15752301897321422,
+        "mean_completed_episode_steps": 49.88414634146341,
+        "nonzero_direct_reward_coverage": 0.29052734375,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.3197021484375,
+        "steps": 8192,
+        "unfinished_tail_steps": 11
+      }
+    },
+    "s027-control": {
+      "actual32": {
+        "completed_episodes": 235,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.1336571284784944,
+        "mean_completed_episode_steps": 34.85531914893617,
+        "nonzero_direct_reward_coverage": 0.3863525390625,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.4442138671875,
+        "steps": 8192,
+        "unfinished_tail_steps": 1
+      },
+      "counterfactual128": {
+        "completed_episodes": 235,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.18090835677288683,
+        "mean_completed_episode_steps": 34.85531914893617,
+        "nonzero_direct_reward_coverage": 0.7237548828125,
+        "rollout": 128,
+        "same_rollout_terminal_coverage": 0.847412109375,
+        "steps": 8192,
+        "unfinished_tail_steps": 1
+      },
+      "counterfactual256": {
+        "completed_episodes": 235,
+        "lambda": 0.95,
+        "mean_absolute_direct_terminal_reward_component": 0.18747144767089213,
+        "mean_completed_episode_steps": 34.85531914893617,
+        "nonzero_direct_reward_coverage": 0.772705078125,
+        "rollout": 256,
+        "same_rollout_terminal_coverage": 0.9154052734375,
+        "steps": 8192,
+        "unfinished_tail_steps": 1
+      },
+      "counterfactual_lambda1": {
+        "completed_episodes": 235,
+        "lambda": 1,
+        "mean_absolute_direct_terminal_reward_component": 0.20127650669642863,
+        "mean_completed_episode_steps": 34.85531914893617,
+        "nonzero_direct_reward_coverage": 0.3863525390625,
+        "rollout": 32,
+        "same_rollout_terminal_coverage": 0.4442138671875,
+        "steps": 8192,
+        "unfinished_tail_steps": 1
+      }
+    }
+  },
+  "run": "/mnt/d/HearthStoneAI-Rebuild/runs/lobby-037-local-r1",
+  "status": "passed"
+}

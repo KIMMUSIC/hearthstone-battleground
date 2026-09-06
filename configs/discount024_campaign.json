@@ -1,0 +1,7 @@
+{
+  "seeds": [7, 17, 27],
+  "arms": {"control": 0.99, "candidate": 1.0},
+  "train": {"max_steps": 8192, "max_seconds": 60, "threads": 1, "n_steps": 32, "batch_size": 32, "n_epochs": 4, "checkpoint_interval": 8192, "max_turns": 8, "max_actions": 24, "opponent_mode": "fixed-v1"},
+  "limits": {"phase_seconds": 180, "train_seconds": 360, "evaluate_seconds": 600, "total_seconds": 1200, "rss_bytes": 2147483648, "disk_bytes": 1073741824},
+  "python": "/home/hwa3060/hsai-local/venv311/bin/python"
+}

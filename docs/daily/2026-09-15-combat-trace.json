@@ -1,0 +1,75 @@
+{
+  "scenario": "simultaneous ordinary golem deaths then token combat",
+  "seed": 1,
+  "result": {
+    "result": 0,
+    "damage_taken": 0,
+    "damage_dealt": 0,
+    "attacks": [
+      {
+        "side": "player",
+        "attacker": 1,
+        "defender": 2,
+        "attacker_health": 0,
+        "defender_health": 0,
+        "attacker_shield_broken": false,
+        "defender_shield_broken": false
+      },
+      {
+        "side": "enemy",
+        "attacker": 4,
+        "defender": 3,
+        "attacker_health": -1,
+        "defender_health": -1,
+        "attacker_shield_broken": false,
+        "defender_shield_broken": false
+      }
+    ],
+    "reason": "elimination",
+    "deaths": [
+      {
+        "side": "player",
+        "entity_id": 1,
+        "card_id": 96763,
+        "position": 0
+      },
+      {
+        "side": "enemy",
+        "entity_id": 2,
+        "card_id": 96763,
+        "position": 0
+      },
+      {
+        "side": "enemy",
+        "entity_id": 4,
+        "card_id": 96764,
+        "position": 0
+      },
+      {
+        "side": "player",
+        "entity_id": 3,
+        "card_id": 96764,
+        "position": 0
+      }
+    ],
+    "summons": [
+      {
+        "event": "summon",
+        "side": "player",
+        "source": 1,
+        "entity_id": 3,
+        "card_id": 96764,
+        "position": 0
+      },
+      {
+        "event": "summon",
+        "side": "enemy",
+        "source": 2,
+        "entity_id": 4,
+        "card_id": 96764,
+        "position": 0
+      }
+    ]
+  },
+  "combat_sha256": "4a1a15f0a6d383e8502ce20ebfbb0faa0565d3148236c4147d5c6ef91fbef200"
+}

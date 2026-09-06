@@ -1,0 +1,82 @@
+{
+  "raw_sha256": "38eaff2e32f13de5bfe684eda8ad75c1ac792f1257eb459ad711d6903372b097",
+  "scope": "research subset, not live patch",
+  "selected": [
+    96763,
+    96764
+  ],
+  "deferred": [
+    57401,
+    57408,
+    61061,
+    62213
+  ],
+  "cards": [
+    {
+      "id": "BG_EX1_556",
+      "dbfId": 96763,
+      "attack": 2,
+      "health": 3,
+      "techLevel": 2,
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "battlegroundsNormalDbfId": null,
+      "battlegroundsPremiumDbfId": 57401
+    },
+    {
+      "id": "BG_EX1_556t",
+      "dbfId": 96764,
+      "attack": 2,
+      "health": 1,
+      "techLevel": 1,
+      "mechanics": null,
+      "battlegroundsNormalDbfId": null,
+      "battlegroundsPremiumDbfId": 57408
+    },
+    {
+      "id": "BGS_061",
+      "dbfId": 61061,
+      "attack": 3,
+      "health": 1,
+      "techLevel": 1,
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "battlegroundsNormalDbfId": null,
+      "battlegroundsPremiumDbfId": 62262
+    },
+    {
+      "id": "BGS_061t",
+      "dbfId": 62213,
+      "attack": 1,
+      "health": 1,
+      "techLevel": 1,
+      "mechanics": null,
+      "battlegroundsNormalDbfId": null,
+      "battlegroundsPremiumDbfId": 62215
+    },
+    {
+      "id": "TB_BaconUps_006",
+      "dbfId": 57401,
+      "attack": 4,
+      "health": 6,
+      "techLevel": 2,
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "battlegroundsNormalDbfId": 96763,
+      "battlegroundsPremiumDbfId": null
+    },
+    {
+      "id": "TB_BaconUps_006t",
+      "dbfId": 57408,
+      "attack": 4,
+      "health": 2,
+      "techLevel": 1,
+      "mechanics": null,
+      "battlegroundsNormalDbfId": 96764,
+      "battlegroundsPremiumDbfId": null
+    }
+  ]
+}

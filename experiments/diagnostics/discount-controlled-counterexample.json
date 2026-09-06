@@ -1,0 +1,354 @@
+{
+  "status": "counterexample-confirmed-not-trained-intervention",
+  "gamma": 0.99,
+  "records": [
+    {
+      "seed": 7,
+      "policy": "end_immediately",
+      "reward": -8.0,
+      "discounted_return": -7.72553055720799,
+      "actions": 8,
+      "hp": 2,
+      "combats": [
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 1
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 2
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 3
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 4
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 5
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 6
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 7
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 8
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "policy": "freeze_until_forced",
+      "reward": -8.0,
+      "discounted_return": -3.165257839237666,
+      "actions": 192,
+      "hp": 2,
+      "combats": [
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 1
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 2
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 3
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 4
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 5
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 6
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 7
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 8
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "policy": "end_immediately",
+      "reward": -8.0,
+      "discounted_return": -7.72553055720799,
+      "actions": 8,
+      "hp": 2,
+      "combats": [
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 1
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 2
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 3
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 4
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 5
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 6
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 7
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 8
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "policy": "freeze_until_forced",
+      "reward": -8.0,
+      "discounted_return": -3.165257839237666,
+      "actions": 192,
+      "hp": 2,
+      "combats": [
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 1
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 2
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 3
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 4
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 5
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 6
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 7
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 8
+        }
+      ]
+    },
+    {
+      "seed": 27,
+      "policy": "end_immediately",
+      "reward": -8.0,
+      "discounted_return": -7.72553055720799,
+      "actions": 8,
+      "hp": 2,
+      "combats": [
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 1
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 2
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 3
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 4
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 5
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 6
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 7
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 8
+        }
+      ]
+    },
+    {
+      "seed": 27,
+      "policy": "freeze_until_forced",
+      "reward": -8.0,
+      "discounted_return": -3.165257839237666,
+      "actions": 192,
+      "hp": 2,
+      "combats": [
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 1
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 2,
+          "damage_dealt": 0,
+          "turn": 2
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 3
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 3,
+          "damage_dealt": 0,
+          "turn": 4
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 5
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 4,
+          "damage_dealt": 0,
+          "turn": 6
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 7
+        },
+        {
+          "combat_result": -1,
+          "damage_taken": 5,
+          "damage_dealt": 0,
+          "turn": 8
+        }
+      ]
+    }
+  ]
+}

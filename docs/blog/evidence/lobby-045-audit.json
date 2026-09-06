@@ -1,0 +1,226 @@
+{
+  "status": "passed",
+  "baselines": {
+    "heuristic": {
+      "actions": 2236,
+      "buys": 283,
+      "forced_ends": 0,
+      "freezes": 0,
+      "mean_rank": 4.25,
+      "mean_reward": 0.07142857142857144,
+      "plays": 306,
+      "top4_fraction_ranked": 0.5,
+      "truncated": 0
+    },
+    "random": {
+      "actions": 667,
+      "buys": 127,
+      "forced_ends": 0,
+      "freezes": 121,
+      "mean_rank": 8.0,
+      "mean_reward": -1.0,
+      "plays": 96,
+      "top4_fraction_ranked": 0.0,
+      "truncated": 0
+    }
+  },
+  "collection_episodes": 300,
+  "dataset_rows": {
+    "base_train": 10752,
+    "candidate_train": {
+      "17": 18009,
+      "27": 18191,
+      "7": 18107
+    },
+    "dev": 2236
+  },
+  "dataset_sha256": {
+    "base_train": "808a15986df7bb954621a48c77f1d5d9c072a32efc56f5d85ab7502fa488e18d",
+    "dev": "268580ccc2b3afe73f10da8a003f78a13166de10231fce301a682d806087e693"
+  },
+  "decision": {
+    "candidate_accuracy_floor_met": false,
+    "candidate_keep": false,
+    "classification_supported": false,
+    "game_transfer_supported": false,
+    "macro_differences": [
+      0.018142572309016725,
+      -0.0920162025510165,
+      -0.057114863587116205
+    ],
+    "mean_macro_difference": -0.043662831276371994,
+    "mean_rank_improvement": -0.10000000000000024,
+    "no_truncation": true,
+    "positive_classification_seeds": 1,
+    "positive_game_seeds": 1,
+    "rank_improvements": [
+      0.7000000000000002,
+      -0.9000000000000004,
+      -0.10000000000000053
+    ],
+    "top4_difference": 0.03333333333333333
+  },
+  "evaluation_episodes": 280,
+  "games": {
+    "7": {
+      "candidate": {
+        "final": {
+          "actions": 1689,
+          "buys": 253,
+          "forced_ends": 0,
+          "freezes": 0,
+          "mean_rank": 6.3,
+          "mean_reward": -0.5142857142857143,
+          "plays": 257,
+          "top4_fraction_ranked": 0.15,
+          "truncated": 0
+        },
+        "initial": {
+          "actions": 2328,
+          "buys": 142,
+          "forced_ends": 87,
+          "freezes": 1678,
+          "mean_rank": 8.0,
+          "mean_reward": -1.0,
+          "plays": 81,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        }
+      },
+      "control": {
+        "final": {
+          "actions": 1373,
+          "buys": 179,
+          "forced_ends": 0,
+          "freezes": 0,
+          "mean_rank": 7.0,
+          "mean_reward": -0.7142857142857142,
+          "plays": 183,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        },
+        "initial": {
+          "actions": 2328,
+          "buys": 142,
+          "forced_ends": 87,
+          "freezes": 1678,
+          "mean_rank": 8.0,
+          "mean_reward": -1.0,
+          "plays": 81,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        }
+      }
+    },
+    "17": {
+      "candidate": {
+        "final": {
+          "actions": 720,
+          "buys": 0,
+          "forced_ends": 0,
+          "freezes": 0,
+          "mean_rank": 8.0,
+          "mean_reward": -1.0,
+          "plays": 0,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        },
+        "initial": {
+          "actions": 2904,
+          "buys": 79,
+          "forced_ends": 121,
+          "freezes": 2798,
+          "mean_rank": 8.0,
+          "mean_reward": -1.0,
+          "plays": 18,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        }
+      },
+      "control": {
+        "final": {
+          "actions": 1436,
+          "buys": 163,
+          "forced_ends": 0,
+          "freezes": 0,
+          "mean_rank": 7.1,
+          "mean_reward": -0.7428571428571427,
+          "plays": 166,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        },
+        "initial": {
+          "actions": 2904,
+          "buys": 79,
+          "forced_ends": 121,
+          "freezes": 2798,
+          "mean_rank": 8.0,
+          "mean_reward": -1.0,
+          "plays": 18,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        }
+      }
+    },
+    "27": {
+      "candidate": {
+        "final": {
+          "actions": 1361,
+          "buys": 248,
+          "forced_ends": 0,
+          "freezes": 0,
+          "mean_rank": 6.7,
+          "mean_reward": -0.6285714285714287,
+          "plays": 252,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        },
+        "initial": {
+          "actions": 2534,
+          "buys": 134,
+          "forced_ends": 98,
+          "freezes": 1890,
+          "mean_rank": 8.0,
+          "mean_reward": -1.0,
+          "plays": 140,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        }
+      },
+      "control": {
+        "final": {
+          "actions": 1529,
+          "buys": 219,
+          "forced_ends": 0,
+          "freezes": 0,
+          "mean_rank": 6.6,
+          "mean_reward": -0.6,
+          "plays": 222,
+          "top4_fraction_ranked": 0.05,
+          "truncated": 0
+        },
+        "initial": {
+          "actions": 2534,
+          "buys": 134,
+          "forced_ends": 98,
+          "freezes": 1890,
+          "mean_rank": 8.0,
+          "mean_reward": -1.0,
+          "plays": 140,
+          "top4_fraction_ranked": 0.0,
+          "truncated": 0
+        }
+      }
+    }
+  },
+  "models": 6,
+  "ppo_steps": 0,
+  "replayed_actions": 26543,
+  "supervised_updates_per_model": 1024,
+  "training_method": "behavior-cloning-diagnostic-v1",
+  "provenance": {
+    "source": "runs/lobby-045-local-r1/audit.json",
+    "source_sha256": "9bf7f83c2bb6f7386f07c1fd6f8c1cf9935da3dedcc00dcbaba4d8824e1a42ed",
+    "scope": "Selected aggregate fields only; raw models, trajectories, and full audit remain local."
+  }
+}

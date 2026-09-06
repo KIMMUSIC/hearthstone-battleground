@@ -1,0 +1,13 @@
+{
+  "max_steps": 100000,
+  "max_seconds": 10800,
+  "threads": 1,
+  "seed": 701,
+  "n_steps": 32,
+  "batch_size": 32,
+  "n_epochs": 4,
+  "checkpoint_interval": 10000,
+  "max_turns": 8,
+  "max_actions": 24,
+  "opponent_mode": "fixed-v1"
+}

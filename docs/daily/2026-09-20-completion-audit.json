@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "logical_scope": [
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20"
+  ],
+  "actual_date": "2026-09-06",
+  "requirements": {
+    "9/17": "v4 seven shop cards plus one summon-only token; prior mappings preserved; unsupported candidates excluded with evidence",
+    "9/18": "economic boundaries, modal discover and golden/observation contracts verified by tests",
+    "9/19": "8192 actual steps, 1024 updates, 80 evaluated games, models changed and reload succeeded, supervised resources, immutable inputs and return ZIP audit",
+    "9/20": "100+100 development baseline games, six exact full-trace replays, reserved final inputs absent from run, numerical criteria and measured future limits fixed"
+  },
+  "verification": {
+    "pytest": "156 passed in 18.74s",
+    "targeted_after_freeze_metric_change": "6 passed in 0.37s",
+    "ruff": "All checks passed for src scripts tests including audit/report helpers",
+    "run_audit": "runs/expansion-019-local-r1/audit.json",
+    "independent_read_only_card_economy_review": "passed; no blockers",
+    "opponent_schema_and_disjoint_seeds": "passed; no final gameplay",
+    "documentation_links": "passed",
+    "remaining_experiment_processes": []
+  },
+  "future_campaign_executed": false,
+  "known_limits": [
+    "golden Harvest Golem and Scallywag deferred",
+    "archival research subset, not full live game",
+    "short model did not improve; repeats freeze",
+    "sampled RSS is not a hard OS limit"
+  ],
+  "evidence_sha256": {
+    "runs/expansion-019-local-r1/audit.json": "36738473a989e33dfc4517f200c98b5bfe26d2cb1f803d61c7e6f9d1c89e78cd",
+    "experiments/expansion020_campaign.json": "85e7fd03c1fcbc1fc070e8d3d8db1991552d10ad558a6bfb3f7836f7b62c11e2",
+    "docs/daily/2026-09-17-corrected-evidence.json": "29db8584a5056dc2269e1f0435073de54ce6764d62e775862269deebd3b88444",
+    "docs/daily/2026-09-17.md": "cbd5a242262c61713efabcf054390bd83f4e582068efe935c98a947d2942015b",
+    "docs/daily/2026-09-18.md": "24c9a4110520e1a96f341842369907f90885307dbc81c33c4ba10626e706018e",
+    "docs/daily/2026-09-19.md": "dead9e2fcd26b1fd66768efaea33912493f994c145e8f51bcf99b87443ae5759",
+    "docs/daily/2026-09-20.md": "44ddc68a8272704ebce5625c1c08b8b7804c4dfff9e16bd846667d47877f361c"
+  }
+}

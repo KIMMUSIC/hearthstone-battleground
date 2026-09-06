@@ -1,0 +1,11 @@
+{
+  "holdout-008-audit.json": {
+    "source": "handoff/holdout-008/audit-008.json",
+    "source_sha256": "9a140213231f18b719d56b441df5222d22ffe7852f4ab1c62925a2ecaeeeca74"
+  },
+  "lobby-045-audit.json": {
+    "source": "runs/lobby-045-local-r1/audit.json",
+    "source_sha256": "9bf7f83c2bb6f7386f07c1fd6f8c1cf9935da3dedcc00dcbaba4d8824e1a42ed",
+    "scope": "Selected aggregate fields only; raw models, trajectories, and full audit remain local."
+  }
+}

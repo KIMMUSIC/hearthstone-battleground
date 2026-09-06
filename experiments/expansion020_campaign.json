@@ -1,0 +1,99 @@
+{
+  "status": "designed-not-executed",
+  "execution_scope": "9/21-22 separate goal",
+  "compatibility": {
+    "action_version": "discrete-37-v1",
+    "cards_sha256": "465a3360cba667bb417c73a955b0196704fccade353e5152e94a6fbdf0e9729f",
+    "gymnasium": "1.2.3",
+    "mapping_sha256": "852a79cf33800589765b6114fcead6d052028a78c194f34af89a3337a829880e",
+    "numpy": "2.4.2",
+    "observation_version": "onehot-slots-v4",
+    "python_version": "3.11.15",
+    "rules_sha256": "8910290a3311b02e49f521dc4eab4628b662ad02fcda41ae945b67f18ebc224f",
+    "sb3-contrib": "2.7.1",
+    "source_sha256": "664bbf7eeaa5f8e51b5dd71b8418b7642da5706809f23e681d3e1ed78e6ac418",
+    "stable-baselines3": "2.7.1",
+    "torch": "2.10.0+cpu"
+  },
+  "pre_baseline_design_sha256": "0cc5b396159f88c9c2415151629f4948c98f8b312548ed2a834cdae22268edae",
+  "input_sha256": {
+    "configs/expansion019_train.json": "c1008e44286ce3ada59e0369d823df02624b032bd6c572cf297ac7d1e8ac7e94",
+    "configs/expansion020_eval.json": "f429a57652f1a793e63341361d8cb8dce26eb32ff9721163b0af7156a914208f",
+    "configs/expansion020_dev_opponents.json": "148c0d7a3ef79f1617dc17da6496fd6bd54b90d3a35d0d4df9065bea7afd9181",
+    "experiments/reserved/expansion020_final_eval.json": "309d76bdee13e8373aa1ce00c67b48b690fabc67597e61b467746fcf6141afe7",
+    "experiments/reserved/expansion020_final_opponents.json": "1abcfad8716ef6f68724391df334770965003f3ee6164a174101c0e84751f34b"
+  },
+  "training_seeds": [
+    7,
+    17,
+    27
+  ],
+  "steps_per_seed": 100000,
+  "total_steps": 300000,
+  "segment_additional_steps": [
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    1696
+  ],
+  "evaluation_milestones": [
+    0,
+    49152,
+    100000
+  ],
+  "expected_updates_per_seed": 12500,
+  "base_training_config": "configs/expansion019_train.json",
+  "training_opponent_mode": "fixed-v1",
+  "development_games_per_model": 100,
+  "development_model_games": 900,
+  "final_games_per_frozen_seed_model": 100,
+  "final_seed_range": [
+    30001,
+    30100
+  ],
+  "final_evaluation_executed": false,
+  "acceptance": {
+    "mean_seed_reward_delta_min": 0.5,
+    "positive_seeds_min": 2,
+    "mean_seed_survival_delta_min": -0.05,
+    "million_step_candidate_heuristic_reward_gap_min": -0.5
+  },
+  "limits": {
+    "cpu_threads": 1,
+    "train_seconds_per_segment": 60,
+    "supervisor_seconds_per_phase": 180,
+    "sampled_rss_bytes": 2147483648,
+    "all_outputs_and_return_zip_bytes": 1073741824,
+    "campaign_train_wall_seconds": 1200,
+    "campaign_dev_eval_wall_seconds": 600,
+    "campaign_total_wall_seconds": 1800,
+    "automatic_retry": false
+  },
+  "measured_estimates": {
+    "training_wall_seconds": 533.8004796589735,
+    "development_eval_seconds": 197.36357989499538,
+    "combined_seconds": 731.1640595539689,
+    "raw_outputs_plus_uncompressed_return_copy_bytes": 540757111,
+    "basis": "runs/expansion-019-local-r1/audit.json",
+    "uncertainty": "One 8192-step run; not a completion guarantee"
+  },
+  "packaging": "One frozen input bundle; incremental per-segment return ZIPs, no cumulative duplication",
+  "resume_contract": "Weights/optimizer/counters restored; episodes and RNG restart at each boundary",
+  "stop_conditions": [
+    "source/compatibility mismatch",
+    "non-finite parameters",
+    "missing or partial expected steps",
+    "supervisor or cumulative budget",
+    "disk limit",
+    "evaluation trace mismatch"
+  ]
+}

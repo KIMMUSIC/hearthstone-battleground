@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-06",
+  "goal_date": "2026-09-17",
+  "ruleset": "archival-subset-v3",
+  "local_source": {
+    "path": "D:/HearthStoneAI/cards_raw.json",
+    "sha256": "38eaff2e32f13de5bfe684eda8ad75c1ac792f1257eb459ad711d6903372b097",
+    "claim": "archival source for techLevel and stored Battlegrounds subset fields"
+  },
+  "official_sources": [
+    {
+      "url": "https://hearthstone.blizzard.com/en-us/api/cards?ids=49278,60628,96796,103652,108715",
+      "claim": "official card names, attack, health, and simple Taunt/Divine Shield text for the added cards"
+    },
+    {
+      "url": "https://hearthstone.blizzard.com/en-us/api/cards?ids=57401,57408,61061,62213,62262",
+      "claim": "Scallywag immediate-attack text is visible; golden Harvest Golem IDs were not returned in this official API check"
+    }
+  ],
+  "accepted_shop_cards": [
+    {"dbf_id": 49278, "name": "경비로봇", "tier": 1, "attack": 2, "health": 3, "keywords": ["TAUNT"], "mapping_index": 7},
+    {"dbf_id": 60628, "name": "용혈족 부관", "tier": 1, "attack": 2, "health": 3, "keywords": ["TAUNT"], "mapping_index": 8},
+    {"dbf_id": 96796, "name": "공허방랑자", "tier": 1, "attack": 1, "health": 3, "keywords": ["TAUNT"], "mapping_index": 9},
+    {"dbf_id": 103652, "name": "안녕로봇", "tier": 1, "attack": 1, "health": 2, "keywords": ["DIVINE_SHIELD", "TAUNT"], "mapping_index": 10},
+    {"dbf_id": 108715, "name": "은빛 새끼 거위", "tier": 1, "attack": 2, "health": 2, "keywords": ["TAUNT"], "mapping_index": 11}
+  ],
+  "rejected_or_deferred": [
+    {"dbf_id": 57401, "name": "황금 허수아비골렘", "reason": "local archival text exists but official API check did not return the card; golden deathrattle remains unsupported"},
+    {"dbf_id": 57408, "name": "황금 손상된 골렘", "reason": "local archival token exists but is tied to unsupported golden Harvest Golem"},
+    {"dbf_id": 61061, "name": "뱃사람", "reason": "requires immediate-attack deathrattle ordering not implemented in archival-subset-v3"},
+    {"dbf_id": 62213, "name": "하늘 해적", "reason": "token for deferred Scallywag immediate-attack effect"},
+    {"dbf_id": 62262, "name": "황금 뱃사람", "reason": "requires immediate-attack deathrattle ordering not implemented in archival-subset-v3"}
+  ],
+  "encoding_decision": "Supported golden cards continue to use the base card ID plus the Minion.golden flag. Separate golden dbf IDs are not added to the mapping for this subset."
+}

@@ -1,0 +1,61 @@
+{
+  "python": "/home/hwa3060/hsai-local/venv311/bin/python",
+  "seeds": [
+    7,
+    17,
+    27
+  ],
+  "arms": {
+    "control": {
+      "n_steps": 32
+    },
+    "candidate": {
+      "n_steps": 128
+    }
+  },
+  "train": {
+    "max_steps": 8192,
+    "max_seconds": 60.0,
+    "threads": 1,
+    "seed": 7,
+    "n_steps": 32,
+    "batch_size": 32,
+    "n_epochs": 4,
+    "gamma": 1.0,
+    "learner_seat": 0,
+    "max_rounds": 100,
+    "heuristic_opponents": 3,
+    "observation_scale": "fixed-v1"
+  },
+  "eval_seeds": [
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    20016,
+    20017,
+    20018,
+    20019,
+    20020
+  ],
+  "replay_seeds": [
+    20001,
+    20002
+  ],
+  "limits": {
+    "phase_seconds": 180,
+    "rss_bytes": 2147483648,
+    "disk_bytes": 1073741824
+  }
+}

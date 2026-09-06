@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "diagnosis_sha256": "62556ef6793217bf3fd3eeef845adc2d7c86299a78fba6e2eac86266244e0b3f",
+  "checks": {
+    "classification_denominators_and_macro": 18,
+    "candidate_partition_matrices_and_weighted_nll_match045": 3,
+    "all_dev_matrices_match045": 6,
+    "all_visited_matrices_match045": 6,
+    "episodes": 120,
+    "states": 8108,
+    "all_strata_and_error_counts_match": true
+  },
+  "diagnostic_code_sha256": "410aaf2eb2463c90b7d2878f6896464ff38e5611b561642527784ec6fa6e3dbc"
+}

@@ -1,0 +1,242 @@
+{
+  "claim_boundary": [
+    "This verifies whether fixed-v1 numeric observations plus frozen public Catalog reconstruct the current heuristic decision.",
+    "No hidden game/view input is used by the decoded policy path.",
+    "This is not a causal claim about PPO learning, neural learnability, or policy performance.",
+    "No training, dependency change, model inference repeat, source edit, or run mutation is performed."
+  ],
+  "cpu_threads": {
+    "torch_interop_threads": 1,
+    "torch_threads": 1
+  },
+  "decode_vs_original_heuristic": {
+    "decoded_heuristic_actions": {
+      "0": 3708,
+      "1": 1190,
+      "11": 2,
+      "12": 3,
+      "13": 5,
+      "14": 4,
+      "15": 6,
+      "16": 6,
+      "17": 5,
+      "18": 1139,
+      "19": 103,
+      "2": 568,
+      "20": 34,
+      "21": 8,
+      "23": 1,
+      "34": 74,
+      "35": 15,
+      "36": 8,
+      "4": 3357,
+      "5": 544,
+      "6": 624,
+      "7": 31
+    },
+    "match_count": 11435,
+    "mismatch_count": 0,
+    "mismatch_fraction": 0.0,
+    "mismatches": [],
+    "original_heuristic_actions": {
+      "0": 3708,
+      "1": 1190,
+      "11": 2,
+      "12": 3,
+      "13": 5,
+      "14": 4,
+      "15": 6,
+      "16": 6,
+      "17": 5,
+      "18": 1139,
+      "19": 103,
+      "2": 568,
+      "20": 34,
+      "21": 8,
+      "23": 1,
+      "34": 74,
+      "35": 15,
+      "36": 8,
+      "4": 3357,
+      "5": 544,
+      "6": 624,
+      "7": 31
+    }
+  },
+  "diagnostic": "lobby040-fixed-v1-heuristic-information-sufficiency",
+  "elapsed_seconds": 18.369516365997697,
+  "episodes": {
+    "heuristic_policy": 20,
+    "random_policy": 20,
+    "saved_039_final_traces": 120,
+    "total": 160
+  },
+  "frozen_inputs_unchanged": true,
+  "generated_policy_episodes": {
+    "heuristic": {
+      "actions": {
+        "0": 334,
+        "1": 1188,
+        "11": 2,
+        "12": 3,
+        "13": 5,
+        "14": 4,
+        "15": 6,
+        "16": 6,
+        "17": 5,
+        "18": 250,
+        "19": 50,
+        "2": 20,
+        "20": 6,
+        "34": 61,
+        "35": 9,
+        "36": 4,
+        "4": 120,
+        "5": 64,
+        "6": 75,
+        "7": 24
+      },
+      "episodes": 20,
+      "states": 2236
+    },
+    "random": {
+      "actions": {
+        "0": 121,
+        "1": 88,
+        "11": 57,
+        "12": 16,
+        "13": 2,
+        "18": 68,
+        "19": 24,
+        "2": 19,
+        "20": 4,
+        "28": 14,
+        "29": 2,
+        "3": 121,
+        "30": 1,
+        "34": 2,
+        "36": 1,
+        "4": 32,
+        "5": 44,
+        "6": 35,
+        "7": 16
+      },
+      "episodes": 20,
+      "states": 667
+    }
+  },
+  "run": "/mnt/d/HearthStoneAI-Rebuild/runs/lobby-039-local-r1",
+  "saved_final_traces": {
+    "s007-candidate": {
+      "actions": {
+        "0": 176,
+        "18": 164,
+        "28": 468,
+        "36": 20,
+        "6": 144
+      },
+      "episodes": 20,
+      "model_sha256": "0dc2753bb68b6a4b4f9531bfafd5ea013157f39a5ce96a986501f1b7cfee3ede",
+      "states": 972
+    },
+    "s007-control": {
+      "actions": {
+        "1": 300,
+        "11": 180,
+        "18": 180,
+        "3": 2040,
+        "5": 180
+      },
+      "episodes": 20,
+      "model_sha256": "0d3e97d74463fd15db23e14741715568a7635422f8b85a007e9e8fa854fe4a41",
+      "states": 2880
+    },
+    "s017-candidate": {
+      "actions": {
+        "0": 120,
+        "1": 660
+      },
+      "episodes": 20,
+      "model_sha256": "62ae2e3d5737b8aa52a44d7455ec2de6d1e3af597149d92b0bd364f6b82c7b21",
+      "states": 780
+    },
+    "s017-control": {
+      "actions": {
+        "0": 120,
+        "4": 120
+      },
+      "episodes": 20,
+      "model_sha256": "1c85680bfa3a62b9052e1b3c5aa21aaba7874d148b21a5f5e5283da7bed186ae",
+      "states": 240
+    },
+    "s027-candidate": {
+      "actions": {
+        "0": 120,
+        "1": 660
+      },
+      "episodes": 20,
+      "model_sha256": "eac74dffdb8c4b408f8cf3133a961f97b3573dbdc3c232bff254ba3d2e9c6137",
+      "states": 780
+    },
+    "s027-control": {
+      "actions": {
+        "3": 2880
+      },
+      "episodes": 20,
+      "model_sha256": "1b58945e74eae3d13d74fde16959997b349e1e736c17f47e4dd1dca7d32b9109",
+      "states": 2880
+    }
+  },
+  "source_hashes": {
+    "FILES.json": "c5cdb02b6cb3fa7dddb83c84ebe018a6c0655a97e6ec2520f6b9753acb8a2284",
+    "audit.json": "f7d13d4a8ab874b7c0fd47ded3ee9e48f4b5065f411b8618fdda5c75b251b43a",
+    "configs/lobby039_comparison.json": "636d0bb0aba50247a2395c51f53bb9112509b3693078ead27103cc0d9b00cafc",
+    "data/card_mapping.json": "852a79cf33800589765b6114fcead6d052028a78c194f34af89a3337a829880e",
+    "data/cards.json": "465a3360cba667bb417c73a955b0196704fccade353e5152e94a6fbdf0e9729f",
+    "src/hearthstone_ai/cards.py": "fe35871025836c28025308ad4e59c349bcb13bc7531150a58143f0cd11bb75a3",
+    "src/hearthstone_ai/lobby.py": "be3bbd60af35c287f80ab3e700af046a1fad18bfba4eef504058aa4ecd408f5f",
+    "src/hearthstone_ai/lobby_env.py": "783a3f9b420ebf45098aefd33d761aab77dafbd23e99bfddea93e01b43538a07",
+    "src/hearthstone_ai/lobby_observation.py": "a0886daf1188d7d7900dce8a7bf77a7fe6da25bdc7f9033f1584c6d4685d5bdd",
+    "src/hearthstone_ai/lobby_policies.py": "d1402611b95d82d33059cf87362adb1f56ba08e43a8188c712c793f688193a1d"
+  },
+  "states": {
+    "heuristic_policy": 2236,
+    "random_policy": 667,
+    "saved_039_final_traces": 8532,
+    "sha256": "9f887197a4cb0e2d736bd86965614a920371e3cdea8434c90bed31166d864e63",
+    "total": 11435
+  },
+  "status": "passed",
+  "trace_inputs": {
+    "s007-candidate": {
+      "final_report": "outputs/evaluate-s007-candidate/final.json",
+      "final_report_sha256": "98fc2b6082ce8b380808856ff5d3599dcc4d7a92d52133b1ae1308448f2e9e2e",
+      "model_sha256": "0dc2753bb68b6a4b4f9531bfafd5ea013157f39a5ce96a986501f1b7cfee3ede"
+    },
+    "s007-control": {
+      "final_report": "outputs/evaluate-s007-control/final.json",
+      "final_report_sha256": "c4562380f40e5ec7a960addee0348eb31acf2dbbcac91dc5466dac712bd69489",
+      "model_sha256": "0d3e97d74463fd15db23e14741715568a7635422f8b85a007e9e8fa854fe4a41"
+    },
+    "s017-candidate": {
+      "final_report": "outputs/evaluate-s017-candidate/final.json",
+      "final_report_sha256": "82e3279cadc7173e2d10ce05562deca85f54f2dcf41c1161738bc8685812449f",
+      "model_sha256": "62ae2e3d5737b8aa52a44d7455ec2de6d1e3af597149d92b0bd364f6b82c7b21"
+    },
+    "s017-control": {
+      "final_report": "outputs/evaluate-s017-control/final.json",
+      "final_report_sha256": "bc072bb596bf513c245ce6caf457072aa76ede102c6d5b3cc6bb66126c4a4e9c",
+      "model_sha256": "1c85680bfa3a62b9052e1b3c5aa21aaba7874d148b21a5f5e5283da7bed186ae"
+    },
+    "s027-candidate": {
+      "final_report": "outputs/evaluate-s027-candidate/final.json",
+      "final_report_sha256": "fd9eb6443bcd25ddf745ae10d1735adbb2c03682f73a052187bca96ea7839a4a",
+      "model_sha256": "eac74dffdb8c4b408f8cf3133a961f97b3573dbdc3c232bff254ba3d2e9c6137"
+    },
+    "s027-control": {
+      "final_report": "outputs/evaluate-s027-control/final.json",
+      "final_report_sha256": "c8383d8eaec51c49b8e7be63f536efe62466f2ccafaf8d59361a663f50fa4243",
+      "model_sha256": "1b58945e74eae3d13d74fde16959997b349e1e736c17f47e4dd1dca7d32b9109"
+    }
+  }
+}

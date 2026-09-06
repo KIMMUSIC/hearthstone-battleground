@@ -1,0 +1,41 @@
+{
+  "by_seed": {
+    "17": {
+      "added_rows": 7257,
+      "added_sampled_rows": 24548,
+      "base_probability_mass": 0.621954424858602,
+      "base_rows": 10752,
+      "base_sampled_rows": 40988,
+      "hashes": {
+        "runs/lobby-045-local-r1/outputs/collect-s017-candidate/collection.json": "2d5d51e3904f3ccabf6eb835f5bf2cd15fc7cc6ff8df5f421ee2de9806e20908",
+        "runs/lobby-045-local-r1/outputs/train-s017-candidate/sampling.npz": "e79d808506dacd5388ce63fa27a420566adb51794abf0c258b6df8aa63a8a3be"
+      },
+      "total_sampled_rows": 65536
+    },
+    "27": {
+      "added_rows": 7439,
+      "added_sampled_rows": 28197,
+      "base_probability_mass": 0.5678719773007805,
+      "base_rows": 10752,
+      "base_sampled_rows": 37339,
+      "hashes": {
+        "runs/lobby-045-local-r1/outputs/collect-s027-candidate/collection.json": "bc80e18fd6526fdd7aff08d0e041ab8b65c89e00c29ed681d7fe7128abadd1b7",
+        "runs/lobby-045-local-r1/outputs/train-s027-candidate/sampling.npz": "95de0ebc4c4de9d665174ca15b0d560bb13f1893e55bb45b496c7e3d2413daf8"
+      },
+      "total_sampled_rows": 65536
+    },
+    "7": {
+      "added_rows": 7355,
+      "added_sampled_rows": 23658,
+      "base_probability_mass": 0.640431628993068,
+      "base_rows": 10752,
+      "base_sampled_rows": 41878,
+      "hashes": {
+        "runs/lobby-045-local-r1/outputs/collect-s007-candidate/collection.json": "7bb85e310799c8d4aef76a25228f3e82e9e26794ee08f22b41ba97bc623634c2",
+        "runs/lobby-045-local-r1/outputs/train-s007-candidate/sampling.npz": "75147e1f7351833d9e92148c386752cfba5e56ef63ab782e21fc23b77c4d778b"
+      },
+      "total_sampled_rows": 65536
+    }
+  },
+  "description": "Read-only source exposure counts from actual 045 candidate sampled indices; no causal claim"
+}

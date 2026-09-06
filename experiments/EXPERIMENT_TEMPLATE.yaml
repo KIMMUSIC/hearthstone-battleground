@@ -1,0 +1,80 @@
+# 실행 프로그램이 아직 없는 명세 템플릿이다. null/TODO가 있으면 실행하지 않는다.
+# 구현 시 이 명세를 검증하는 스키마와 실행기를 함께 제공한다.
+schema_version: 1
+status: draft
+run_id: null
+objective: null
+change_under_test: null
+baseline_run_id: null
+
+source:
+  repository_or_bundle: null
+  code_revision: null
+  clean_snapshot_sha256: null
+  dependency_lock_sha256: null
+  card_data_sha256: null
+  card_mapping_sha256: null
+  rules_version: null
+  observation_version: null
+  action_version: null
+
+execution:
+  location: null # local_windows / bot_cloud / remote_host
+  host_identifier: null
+  immutable_working_directory: null
+  persistent_output_directory: null
+  result_delivery_method: null
+  environment_setup_command: null
+  smoke_test_command: null
+  train_command: null
+  evaluate_command: null
+  resume_command: null
+
+budget:
+  cpu_threads: null
+  memory_limit_gib: null
+  max_wall_time_minutes: null
+  max_training_steps: null
+  max_concurrent_runs: 1
+  gpu_device: null # CPU만 사용할 경우에도 cpu로 명시한다.
+  max_additional_cost: 0
+
+training:
+  config_path: null
+  config_sha256: null
+  seeds: null
+  checkpoint_interval_steps: null
+  resource_sample_interval_seconds: null
+
+evaluation:
+  config_path: null
+  config_sha256: null
+  opponent_set_sha256: null
+  seeds: null
+  episodes_per_seed: null
+  primary_metric: null
+  acceptance_criterion: null
+  uncertainty_method: null
+  write_to_training_pool: false
+
+recovery:
+  transient_retry_limit: 1
+  resume_requires_matching_versions: true
+  checkpoint_on_graceful_stop: true
+  stop_on:
+    - budget_exceeded
+    - non_finite_training_values
+    - invalid_observation_or_action
+    - rules_test_failure
+    - version_mismatch
+  code_changes_during_run: false
+
+artifacts:
+  - manifest.yaml
+  - environment.json
+  - status.json
+  - train.log
+  - metrics.jsonl
+  - checkpoints/
+  - evaluation.json
+  - summary.md
